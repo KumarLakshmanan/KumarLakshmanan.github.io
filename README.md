@@ -1,4 +1,6 @@
-# Hello Coders..
+## Hello Coders..
+
+**This Index Page is Under Construction so Please wait**
 
 ### Who Am I ?
 
@@ -6,9 +8,6 @@
   * 19 Years OLD Programmer
   * Well Basement on Web Developing & Designing
 
-
-
-This Index Page is Under Construction so Please wait
 
 Visit My Portfolios
 
