@@ -211,10 +211,10 @@ html {
   border-radius: 2px;
   padding-left: 10px;
 }
-body .section:nth-child(odd) {
+body .section:nth-child(even) {
   background: #fff;
 }
-body .section:nth-child(even) {
+body .section:nth-child(odd) {
   background: #f3eeee;
 }
 body .section:nth-child(7) {
