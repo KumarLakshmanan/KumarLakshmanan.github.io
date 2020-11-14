@@ -97,9 +97,7 @@ html,body{
     display: inline-block;
 }
 .Section .Heading h2{
-    background: linear-gradient(45deg , #00BFD8 , #84ff3d );
-    background-clip: text;
-    color: transparent;
+    color: #181818;
     font-weight: bolder;
     margin-bottom: 30px;
     position: relative;
