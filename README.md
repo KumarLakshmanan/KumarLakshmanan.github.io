@@ -11,7 +11,8 @@
 
 Visit My Portfolios
 
-   * [One](https://kumarlakshmanan.github.io/Portfolio/1/)
+   * [PortFolio One](https://kumarlakshmanan.github.io/Portfolio/1/)
+   * [PortFolio Two](https://kumarlakshmanan.github.io/Portfolio/2/)
 
 In Future I add More Codes
 
