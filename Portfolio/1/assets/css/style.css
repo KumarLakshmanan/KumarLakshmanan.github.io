@@ -247,7 +247,7 @@ body .section:nth-child(7) {
   justify-content: center;
   align-items: center;
   font-family: "Consolas", "Fira Code", "Montserrat", sans-serif;
-  font-size: 30vh;
+  font-size: 15vh;
   user-select: none;
   z-index: 10;
 }
