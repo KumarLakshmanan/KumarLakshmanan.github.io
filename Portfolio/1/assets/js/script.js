@@ -17,6 +17,7 @@ var swiper_two = new Swiper(".swiper-container.two", {
   autoplay: {
     delay: 4000,
   },
+  slidesPerView: 1,
   loop: true,
   grabCursor: true,
 });
