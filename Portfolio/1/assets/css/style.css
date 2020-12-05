@@ -269,3 +269,8 @@ body .section:nth-child(7) {
     opacity: 0.7;
   }
 }
+@media screen and (max-width: 992px){
+  .section{
+    padding: 50px 20px;
+  }
+}
