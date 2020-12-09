@@ -1071,14 +1071,7 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
       margin: 0 auto;
     }
     .nav-text {
-      color: #fff;
-      display: block;
-      font-size: 1.2rem;
-      line-height: 3rem;
-      margin-right: 0.625rem;
-      max-width: 100%;
-      text-align: center;
-      vertical-align: middle;
+	display: none;
     }
     .nav-text::after {
       color: #454545;
