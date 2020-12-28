@@ -21,7 +21,7 @@ const questions = [
     },
     {
         question : "Who invented the Computer ?",
-        answers : ["SteveJobs" , "CharlesBabbage"],
+        answers : ["SteveJobs" , "Charles"],
         correct : 2,
     },
     {
@@ -36,7 +36,7 @@ const questions = [
     },
     {
         question : "Who founded Facebook ?",
-        answers : ["LarryPage" , "MarkZuckerberg"],
+        answers : ["LarryPage" , "Mark"],
         correct : 2,
     },
     {
