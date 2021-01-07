@@ -26,7 +26,7 @@ function myFunction(e) {
         }
     }
     else if (e.target.innerHTML == "=") {
-        calcTextBox.value = eval(calcTextBox.value); 
+        calcTextBox.value = eval(eval(calcTextBox.value).toPrecision(2)); 
     }
     else{
         calcTextBox.value += e.target.innerHTML; 
