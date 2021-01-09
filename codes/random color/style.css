@@ -23,9 +23,11 @@ html {
   background-color: #202020;
   display: grid;
   place-items: center;
-  height: 70px;
+  padding: 10px;
   border-radius: 10px;
   margin-bottom: 30px;
+  min-height: 70px;
+  text-align: center;
 }
 .backgroundColor h1 {
   font-weight: 400;
