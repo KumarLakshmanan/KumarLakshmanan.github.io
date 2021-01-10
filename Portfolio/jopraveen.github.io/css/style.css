@@ -30,7 +30,7 @@ body {
 }
 
 .banner h2 span {
-  font-size: 3vmin;
+  font-size: 10vmin;
   font-weight: 700;
 }
 
@@ -585,19 +585,6 @@ img {
   color: #3e64ff;
 }
 
-@media (max-width: 600px) {
-  header,
-  header.sticky {
-    padding: 20px 50px;
-  }
-  .banner {
-    padding: 150px 20px 100px;
-  }
-  section {
-    padding: 100px 20px;
-  }
-}
-
 /*  For responsive */
 @media (max-width: 991px) {
   header,
@@ -681,6 +668,19 @@ img {
   /* contact page ku */
   .contactInfo {
     margin: 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  header,
+  header.sticky {
+    padding: 20px 50px;
+  }
+  .banner {
+    padding: 150px 20px 100px;
+  }
+  section {
+    padding: 100px 20px;
   }
 }
 /* End of media  */
