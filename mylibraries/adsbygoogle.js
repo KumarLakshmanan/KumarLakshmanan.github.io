@@ -5,9 +5,9 @@ var isAdsDisplayed = true;
 
 
 // <!-- Add this code on Your Index.html file -->
-// <script src="https://kumarlakshmanan.github.com/mylibraries/adsbygoogle.js"></script>
+// <script src="https://kumarlakshmanan.github.io/mylibraries/adsbygoogle.js"></script>
 // <script>
 //   if(window.isAdsDisplayed === undefined ) {
-//     // AdBlock is enabled. Show message or track custom data here
-//   }
+//     // AdBlock is enabled. Add callback function
+//     alert();
 // </script>
