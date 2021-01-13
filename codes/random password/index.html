@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator - CodingFrontend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+             Password Generator
+        </div>
+        <div class="result">
+            <input class="result_view" readonly placeholder="Generated Password">
+            <div class="result_copy">copy</div>
+        </div>
+        <div class="options">
+            <div class="options_title">Options</div>
+            <div class="options_wrapper">
+                <div class="option">
+                    <input type="checkbox" id="uppercase" checked>
+                    <label for="uppercase">Use Uppercase</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" id="lowercase" checked>
+                    <label for="lowercase">Use Lowercase</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" id="numbers" checked>
+                    <label for="numbers">Use Numbers</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" id="symbols" checked>
+                    <label for="symbols">Use Symbols</label>
+                </div>
+            </div>
+        </div>
+        <div class="btn-generate">Generate Password</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
