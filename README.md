@@ -1,3 +1,23 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+[contributors-shield]: https://img.shields.io/github/contributors/kumarlakshmanan/KumarLakshmanan.github.io.svg?style=for-the-badge
+[contributors-url]: https://github.com/kumarlakshmanan/KumarLakshmanan.github.io/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kumarlakshmanan/KumarLakshmanan.github.io.svg?style=for-the-badge
+[forks-url]: https://github.com/kumarlakshmanan/KumarLakshmanan.github.io/network/members
+[stars-shield]: https://img.shields.io/github/stars/kumarlakshmanan/KumarLakshmanan.github.io?style=for-the-badge
+[stars-url]: https://github.com/kumarlakshmanan/KumarLakshmanan.github.io/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kumarlakshmanan/KumarLakshmanan.github.io.svg?style=for-the-badge
+[issues-url]: https://github.com/kumarlakshmanan/KumarLakshmanan.github.io/issues
+[license-shield]: https://img.shields.io/github/license/kumarlakshmanan/KumarLakshmanan.github.io.svg?style=for-the-badge
+[license-url]: https://github.com/kumarlakshmanan/KumarLakshmanan.github.io/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+
+
 # Hello, Coders ! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 ### Who Am I?
