@@ -4,13 +4,12 @@
   height: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.9);
   -webkit-transition: opacity 0.2s ease-out, visibility 0s linear 0.2s;
   -o-transition: opacity 0.2s ease-out, visibility 0s linear 0.2s;
   transition: opacity 0.2s ease-out, visibility 0s linear 0.2s;
   z-index: 1000;
   visibility: hidden;
-  background: #363636;
+  background: #000;
 }
 #cf-loader.show {
   visibility: visible;
@@ -171,4 +170,12 @@
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+}
+
+@media (max-width: 600px) {
+  #cf-loader>.position-center:nth-child(1){
+    width: 95%;
+  }
+  #cf-loader h1{font-size: 20px;} 
+  #cf-loader h4{font-size: 14px;} 
 }
