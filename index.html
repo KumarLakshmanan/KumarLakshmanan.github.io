@@ -4,14 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kumar Lakshmanan - Portfolio</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="loader.css" />
+    <link rel="stylesheet" href="vendor/css/style.css" />
+    <link rel="stylesheet" href="vendor/css/loader.css" />
   </head>
   <body id="top">
-    <nav class="">
+    <!-- Particles.JS Library DOM element -->
+    <div id="particles-js"></div>
+    <!-- PreLoader Element -->
+    <div id="cf-loader" class="show">
+      <div class="position-center" style="top:100%;transform: translate(-50%,-150%);  width: 90%;">
+        <h1>LET'S DIVE INTO MY PORTFOLIO</h1>
+        <div class="text-right color-primary">
+          <h4> - Kumar Lakshmanan</h4>
+        </div>
+      </div>
+      <div class="position-center">
+        <div class="cf-circle" style="margin-bottom: 70px">
+          <div class="cf-1"></div>
+          <div class="cf-2"></div>
+          <div class="cf-3"></div>
+          <div class="cf-4"></div>
+          <div class="cf-5"></div>
+          <div class="cf-6"></div>
+          <div class="cf-7"></div>
+          <div class="cf-8"></div>
+          <div class="cf-9"></div>
+          <div class="cf-10"></div>
+          <div class="cf-11"></div>
+          <div class="cf-12"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NavBar DOM -->
+    <nav class="header">
       <div class="container-fluid flex-between">
         <label class="navbar-brand grid-center m-0">CodingFrontend</label>
         <div class="container_wrap">
@@ -19,26 +49,31 @@
             <li data-index="0" class="active">
               <a href="#">
                 <i class="fa fa-home"></i>
+                <span>HOME</span>
               </a>
             </li>
             <li data-index="1">
               <a href="#">
-                <i class="fa fa-user"></i>
+                <i class="fa fa-traffic-light"></i>
+                <span>TRAFFIC</span>
               </a>
             </li>
             <li data-index="2">
               <a href="#">
-                <i class="fa fa-envelope"></i>
+                <i class="fab fa-sketch"></i>
+                <span>SKILLS</span>
               </a>
             </li>
             <li data-index="3">
               <a href="#">
-                <i class="fa fa-heart"> </i>
+                <i class="fa fa-list"> </i>
+                <span>BLOG</span>
               </a>
             </li>
             <li data-index="5">
               <a href="#">
                 <i class="fa fa-phone"></i>
+                <span>CONTACT</span>
               </a>
             </li>
             <div class="line"></div>
@@ -46,7 +81,9 @@
         </div>
         <div class="d-flex justify-content-end">
           <div class="grid-center cf-d-md-none">
-            <a href="#" class="btn btn-outline-primary py-2 px-3">Hire Me</a>
+            <a href="#" class="btn btn-outline-primary py-2 px-3 m-0"
+              >Hire Me</a
+            >
           </div>
           <a href="#" class="ml-2 icon grid-center"
             ><i class="fa fa-bell" aria-hidden="true"></i
@@ -54,100 +91,39 @@
         </div>
       </div>
     </nav>
-    <section class="hero-wrap">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="text text-center">
-          <span class="subheading">Hey! I am </span>
-          <h1>Kumar Lakshmanan</h1>
-          <h2>
-            I'm a
-            <span class="txt-rotate">
-              <span class="wrap"></span>
-            </span>
-          </h2>
-          <br /><br />
-          <a href="#" class="btn btn-primary py-2 px-3">Get Started</a>
-          <a href="#" class="btn btn-outline-primary py-2 px-3 cf-d-md-none"
-            >Contact us</a
-          >
-        </div>
-      </div>
-    </section>
-    <div id="cf-loader" class="show">
-      <div class="cf-circle">
-        <div class="cf-1"></div>
-        <div class="cf-2"></div>
-        <div class="cf-3"></div>
-        <div class="cf-4"></div>
-        <div class="cf-5"></div>
-        <div class="cf-6"></div>
-        <div class="cf-7"></div>
-        <div class="cf-8"></div>
-        <div class="cf-9"></div>
-        <div class="cf-10"></div>
-        <div class="cf-11"></div>
-        <div class="cf-12"></div>
-      </div>
+    <!-- Ajax Call Loader :Not Coded for Now -->
+    <div class="linear-process">
+      <div class="process-line"></div>
     </div>
+    <!-- AjaxCall Content Changing -->
+    <div class="changing_content">
+      <section class="hero-wrap">
+        <div class="container" style="position: relative">
+          <div class="text text-center">
+            <div class="firstText">
+              <span class="subheading">Hey! I am </span>
+              <h1><span>K</span><span>u</span><span>m</span><span>a</span><span>r</span><span>&nbsp;</span><span>L</span><span>a</span><span>k</span><span>s</span><span>h</span><span>m</span><span>a</span><span>n</span><span>a</span><span>n</span></h1>
+              <h2>
+                I'm a
+                <span class="txt-wrap">
+                  <span class="txt-typed"></span>
+                </span>
+              </h2>  
+            </div>
+            <br />
+            <div class="secondText">
+              <a href="#" class="btn btn-primary py-2 px-3">Get Started</a>
+              <a href="#" class="btn btn-outline-primary py-2 px-3 cf-d-md-none"
+                >Contact us</a
+              >  
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- External JS Libraries -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
-    <script>
-      (function () {
-        "use strict";
-        window.addEventListener("load", function () {
-          setTimeout(() => {
-            document.querySelector("#cf-loader.show").classList.remove("show");
-          }, 1000);
-
-          var navLineBar = document.querySelector(".menu .line");
-          var section = document.querySelectorAll(".section");
-          var navy_bar = document.querySelectorAll(".container_wrap .menu li");
-          var sections = {};
-          var i = 0;
-          let navbar = document.querySelector("nav");
-          var scrollPrev = window.pageYOffset;
-
-          navLineBar.style.left = `${
-            document
-              .querySelector(".menu li.active")
-              .getAttribute("data-index") * 20
-          }%`;
-
-          navy_bar.forEach((element, index) => {
-            element.addEventListener("click", function () {
-              navy_bar.forEach((e) => {
-                e.classList.remove("active");
-                navLineBar.style.left = `${index * 20}%`;
-              });
-              this.classList.add("active");
-            });
-          });
-
-          window.onscroll = function () {
-            var scrollCur = window.pageYOffset;
-            if (scrollPrev > scrollCur) {
-              navbar.style.top = "0";
-            } else {
-              navbar.style.top = "-90px";
-            }
-            scrollPrev = scrollCur;
-
-            var scrollPosition =
-              document.documentElement.scrollTop || document.body.scrollTop;
-          };
-
-          var typed = new Typed(".txt-rotate .wrap", {
-            strings: ["Designer", "Developer", "Blogger", "Pentester"],
-            typeSpeed: 80,
-            loop: true,
-            backDelay: 900,
-            startDelay: 400,
-            backSpeed: 50,
-            loop: true,
-            showCursor: false,
-          });
-        });
-      })();
-    </script>
+    <script src="vendor/js/script.js"></script>
   </body>
 </html>
