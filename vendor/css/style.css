@@ -21,7 +21,7 @@ body {
   text-align: center;
   background-position: center center;
   background-repeat: repeat;
-  font-family: "Poppins" , "Montserrat" ,"Roboto", sans-serif;
+  font-family:  "Poppins" , "Montserrat" ,"Roboto", sans-serif;;
   overflow: hidden;
 }
 canvas {
@@ -98,7 +98,7 @@ canvas {
   color: var(--cf-secondary-color);
   transition: 0.2s all;
 }
-.icon:hover {
+.myicon:hover {
   background-color: var(--cf-primary-color);
   color: var(--cf-secondary-color);
 }
