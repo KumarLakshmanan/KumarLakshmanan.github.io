@@ -33,7 +33,7 @@ canvas {
   width: 100%;
   height: 100%;
   background-color: #000000;
-  background-image: url("bg1.png");
+  background-image: url("../img/bg.png");
   background-repeat: repeat;
 }
 .grid-center {
@@ -244,15 +244,15 @@ label.navbar-brand {
     height: 55px;
   }
   .hero-wrap h1 {
-    font-size: 35px;
-    font-weight: 700;
-  }
-  .hero-wrap h2 {
     font-size: 26px;
     font-weight: 700;
   }
+  .hero-wrap h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
   .hero-wrap .subheading {
-    font-size: 14px;
+    font-size: 13px;
   }
   label.navbar-brand {
     font-size: 25px;
