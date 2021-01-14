@@ -21,7 +21,7 @@ body {
   text-align: center;
   background-position: center center;
   background-repeat: repeat;
-  font-family: "Montserrat";
+  font-family: "Poppins" , "Montserrat" ,"Roboto", sans-serif;
   overflow: hidden;
 }
 canvas {
@@ -78,7 +78,7 @@ canvas {
   border: 1px solid var(--cf-primary-color);
   background-color: transparent;
 }
-.icon:focus,
+.myicon:focus,
 .btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
@@ -89,7 +89,7 @@ canvas {
 .btn:hover {
   background: var(--cf-primary-color);
 }
-.icon {
+.myicon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -168,7 +168,6 @@ label.navbar-brand {
   font-weight: 600;
   color: var(--cf-theme-opposite-color);
   user-select: none;
-  font-family: "Poppins", sans-serif;
 }
 .container_wrap {
   height: 55px;
