@@ -244,11 +244,11 @@ label.navbar-brand {
     height: 55px;
   }
   .hero-wrap h1 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
   }
   .hero-wrap h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
   }
   .hero-wrap .subheading {
@@ -265,6 +265,7 @@ label.navbar-brand {
     left: 0;
     right: 0;
     width: 100%;
+    background: var(--cf-third-color);
   }
   .container_wrap .menu .line {
     transform: translateY(-100%);
