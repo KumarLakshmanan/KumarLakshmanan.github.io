@@ -1,12 +1,10 @@
 var recognition;
 var play = false;
 $(document).ready(function () {
-  //recognition = new (SpeechRecognition || webkitSpeechRecognition || mozSpeechRecognition || msSpeechRecognition)();
   recognition = new webkitSpeechRecognition();
   recognition.lang = "en-US";
   recognition.interimResults = false;
   recognition.maxAlternatives = 5;
-  //recognition.start();
 
   recognition.onresult = function (event) {
     var txt = event.results[0][0].transcript;
