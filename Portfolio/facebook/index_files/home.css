@@ -1,0 +1,1931 @@
+@charset "utf-8";
+
+html,
+body {
+}
+
+.wrap {
+  position: relative;
+  background: #eee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.g-top {
+  position: relative;
+}
+
+.m-video-wrap {
+  width: 100%;
+  padding-top: 56.25%;
+  height: 0px;
+  position: relative;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+}
+
+.m-video {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+.m-video video {
+  width: 100%;
+}
+
+.m-slogan {
+  /*padding-top: 36.27%;*/
+  padding-top: 10%;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/logoslogan2_20210113.png)
+    top center no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  z-index: 9;
+  width: 34.5%;
+  left: 50.6%;
+  top: 60%;
+  margin: -5% auto auto -17.81%;
+}
+
+.m-slogan a {
+  display: block;
+  position: relative;
+  left: 50%;
+  margin-left: -140px;
+  width: 280px;
+  height: 50px;
+  line-height: 46px;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.m-slogan a:hover {
+  line-height: 40px;
+  border: 5px solid #fff;
+}
+
+.m-top-video {
+  position: absolute;
+  z-index: 9;
+  width: 10%;
+  border: 3px solid #ffffff;
+  padding: 2px;
+  left: 60%;
+  top: 40%;
+  cursor: pointer;
+}
+
+.m-top-video img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.m-top-video .cover {
+  left: 50%;
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  margin: -21px 0 0 -21px;
+}
+
+.m-top-video .cover:after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  left: 50%;
+  top: 50%;
+  margin: -9px 0 0 -5px;
+  border: 9px solid transparent;
+  border-left: 15px solid #e66116;
+}
+
+.m-top-video:hover .m-top-circle {
+  -webkit-animation: roll 2s linear 0s infinite;
+  animation: roll 2s linear 0s infinite;
+}
+
+/* pop */
+.g-pop {
+  width: 1000px;
+  height: 563px;
+  position: relative;
+}
+#popBox .closeBtn {
+  right: 0px;
+  top: 0px;
+}
+
+@-webkit-keyframes roll {
+  to {
+    -webkit-transform: rotateZ(360deg);
+  }
+}
+
+@keyframes roll {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.m-top-videoshow {
+  height: 613px;
+  padding-top: 50px;
+  width: 1000px;
+  position: relative;
+}
+
+.m-download-btn {
+  width: 230px;
+  line-height: 50px;
+  background: #ff9c00;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 9;
+  top: 55%;
+  left: 50%;
+  margin-left: -115px;
+}
+
+.m-download-btn:hover {
+  background: #ffb033;
+}
+
+.m-small-video {
+  width: 200px;
+  display: none;
+  background: #d4484b;
+  line-height: 44px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  text-shadow: 2px 2px 2px #a11010;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 9;
+  top: 54%;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.m-small-video .icon-play {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: top;
+  margin: 11px 10px 0;
+  border-radius: 3px;
+  border-top: 10px solid transparent;
+  border-left: 18px solid #fff;
+  border-bottom: 10px solid transparent;
+}
+
+/* .g-cont {
+    padding-bottom: 70px;
+} */
+
+.m-index-news-list {
+  padding-bottom: 100px;
+  max-width: 1800px;
+}
+
+.m-index-news-list li {
+  width: 33.33%;
+}
+
+.c-more-box {
+  width: 33.33%;
+  padding: 0 36px;
+  margin: 0 auto 100px;
+}
+
+.c-more-box-video {
+  width: 33.33%;
+  padding: 0 36px 120px;
+  margin: 0 auto;
+}
+
+.m-index-more {
+  width: 100%;
+  max-width: 600px;
+}
+
+.g-join {
+  height: 330px;
+  padding-top: 90px;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/66e66c9a67a0bottom_bg.jpg)
+    top center no-repeat;
+}
+
+.g-join h3 {
+  line-height: 60px;
+  color: #c02f3e;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.g-join p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #777777;
+  text-align: center;
+  width: 95%;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.g-join a {
+  color: #c02f3e;
+  text-decoration: underline;
+}
+
+.g-join a:hover {
+  color: #f74c50;
+  text-decoration: none;
+}
+
+.m-contact {
+  padding-top: 25px;
+  font-size: 0;
+  text-align: center;
+}
+
+.c-btn-red {
+  width: 210px;
+  height: 44px;
+  display: block;
+  background: #d4484b;
+  line-height: 44px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #a11010;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.c-btn-red:hover {
+  text-decoration: none;
+  background: #f74c50;
+}
+
+.m-contact a.c-btn-red {
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
+}
+
+.m-share {
+  padding-top: 25px;
+  font-size: 0;
+  text-align: center;
+}
+
+.m-share a {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 18px;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/a9768e5865d6share_icon.png)
+    top center no-repeat;
+}
+
+.m-share a.share-facebook {
+  background-position: 0 0;
+}
+
+.m-share a.share-twitter {
+  background-position: -64px 0;
+}
+
+.m-share a.share-facebook:hover {
+  background-position: 0 -64px;
+}
+
+.m-share a.share-twitter:hover {
+  background-position: -64px -64px;
+}
+
+.top-share-facebook {
+  width: 64px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  z-index: 9;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/a9768e5865d6share_icon.png)
+    no-repeat;
+  background-size: 200% 200%;
+  background-position: 0 100%;
+}
+
+.top-share-facebook:hover {
+  background-position: 0 0;
+}
+
+/* add by 20171116 */
+
+.index-download-btn {
+  width: 250px;
+  position: absolute;
+  left: 50%;
+  top: 69%;
+  z-index: 9;
+  border-radius: 7px;
+  border: 2px solid transparent;
+}
+
+.index-download-btn a {
+  display: block;
+}
+
+.index-download-btn img {
+  width: 100%;
+}
+
+.index-download-btn:hover {
+  border: 2px solid #fff;
+}
+
+.index-download-btn.appleStore {
+  margin-left: -270px;
+}
+
+.index-download-btn.googlePlay {
+  margin-left: 20px;
+}
+
+.index-download-btn.apk {
+  margin-left: 140px;
+}
+
+/* move */
+
+.m-teeth span {
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  background: #fca316;
+  display: block;
+  height: 4px;
+  top: 3px;
+  width: 10px;
+}
+
+.m-teeth span.teeth_1 {
+  margin-left: -300px;
+  -webkit-animation: move_1 4s ease 0s infinite;
+  -o-animation: move_1 4s ease 0s infinite;
+  animation: move_1 4s ease 0s infinite;
+}
+
+.m-teeth span.teeth_2 {
+  margin-left: 100px;
+  width: 16px;
+  top: 4px;
+  -webkit-animation: move_2 6s ease 0s infinite;
+  -o-animation: move_2 6s ease 0s infinite;
+  animation: move_2 6s ease 0s infinite;
+}
+
+.m-teeth span.teeth_3 {
+  width: 22px;
+  margin-left: -500px;
+  -webkit-animation: move_3 3s ease 0s infinite;
+  -o-animation: move_3 3s ease 0s infinite;
+  animation: move_3 3s ease 0s infinite;
+}
+
+@-webkit-keyframes move_1 {
+  0% {
+    -webkit-transform: translateX(-200px);
+  }
+
+  40% {
+    -webkit-transform: translateX(800px);
+  }
+
+  60% {
+    -webkit-transform: translateX(100px);
+  }
+
+  80% {
+    -webkit-transform: translateX(500px);
+  }
+
+  100% {
+    -webkit-transform: translateX(-200px);
+  }
+}
+
+@keyframes move_1 {
+  0% {
+    transform: translateX(-200px);
+  }
+
+  40% {
+    transform: translateX(800px);
+  }
+
+  60% {
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(500px);
+  }
+
+  100% {
+    transform: translateX(-200px);
+  }
+}
+
+@-webkit-keyframes move_2 {
+  0% {
+    -webkit-transform: translateX(-600px);
+  }
+
+  40% {
+    -webkit-transform: translateX(300px);
+  }
+
+  60% {
+    -webkit-transform: translateX(-400px);
+  }
+
+  80% {
+    -webkit-transform: translateX(100px);
+  }
+
+  100% {
+    -webkit-transform: translateX(-600px);
+  }
+}
+
+@keyframes move_2 {
+  0% {
+    transform: translateX(-600px);
+  }
+
+  40% {
+    transform: translateX(300px);
+  }
+
+  60% {
+    transform: translateX(-400px);
+  }
+
+  80% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(-600px);
+  }
+}
+
+@-webkit-keyframes move_3 {
+  0% {
+    -webkit-transform: translateX(0px);
+  }
+
+  40% {
+    -webkit-transform: translateX(700px);
+  }
+
+  60% {
+    -webkit-transform: translateX(-100px);
+  }
+
+  80% {
+    -webkit-transform: translateX(1000px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+
+@keyframes move_3 {
+  0% {
+    transform: translateX(0px);
+  }
+
+  40% {
+    transform: translateX(700px);
+  }
+
+  60% {
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+/* add by 20171203 */
+
+.m-language-index {
+  line-height: 30px;
+  padding: 20px 0 14px;
+  width: 240px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  margin-left: -120px;
+  z-index: 1000;
+  display: none;
+}
+
+.m-language-index .earth {
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  width: 30px;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/1c5b745ff9f2earth-index.png)
+    0 3px no-repeat;
+}
+
+.m-language-index .txt {
+  display: inline;
+  vertical-align: top;
+  height: 30px;
+  font-size: 24px;
+  color: #fff;
+  padding: 0 2px;
+  max-width: 80px;
+  line-height: 30px;
+}
+
+.m-language-index .arrow {
+  display: inline-block;
+  vertical-align: top;
+  width: 15px;
+  height: 30px;
+  position: relative;
+}
+
+.m-language-index .arrow i {
+  -webkit-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  position: absolute;
+  left: 2px;
+  display: block;
+  height: 7px;
+  width: 7px;
+}
+
+.m-language-index .arrow .up {
+  top: 9px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.m-language-index .arrow .down {
+  bottom: 9px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.m-language-index:hover .earth {
+}
+
+.m-language-index:hover .txt {
+  color: #fff;
+}
+
+.m-language-index:hover .arrow .up {
+}
+
+.m-language-index:hover .arrow .down {
+}
+
+.m-language-index-change {
+  position: absolute;
+  border: 5px solid #608e93;
+  background: #002327;
+  width: 240px;
+  bottom: 50px;
+  right: 0px;
+  padding: 15px 0;
+  display: none;
+}
+
+.m-language-index-change a {
+  text-align: center;
+  display: block;
+  line-height: 45px;
+  color: #999999;
+  font-size: 18px;
+  text-align: center;
+}
+
+.m-language-index-change a.active {
+  color: #39c0ff;
+}
+
+.m-language-index-change a.active:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.m-language-index-change a:hover {
+  color: #39c0ff;
+  text-decoration: underline;
+}
+
+.m-language-index:hover .m-language-index-change {
+  display: block;
+}
+
+.g-floor-phone {
+  height: 880px;
+  background: url(../images/index_phone_bg.jpg) top center no-repeat;
+}
+
+.g-floor-phone .m-floor-phone-box {
+  width: 85%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 8% 0 50px;
+}
+
+.g-floor-phone .m-floor-phone-box img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.g-floor-phone .txt {
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  line-height: 36px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  word-break: break-word;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.c-fixed-download-wrap {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+  transition: 0.5s;
+}
+
+.c-fixed-download-wrap.show {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* swiper */
+
+.m-swiper-wrap {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.m-swiper {
+  left: 0;
+  width: 500%;
+  font-size: 0;
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+
+.m-swiper li {
+  width: 20%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.m-sw-imgShow {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.m-sw-imgShow img {
+  vertical-align: top;
+  width: 100%;
+}
+
+.m-sw-imgShow img.mobile_img {
+  display: none;
+}
+
+.m-sw-detail-box {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  top: 20%;
+  z-index: 2;
+}
+
+.m-sw-detail-wrap {
+  padding: 0 40px;
+  max-width: 1280px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.m-sw-detail {
+  width: 50%;
+}
+
+.m-sw-detail h3 {
+  font-size: 60px;
+  color: #ff9c00;
+  line-height: 1.2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.m-sw-detail p {
+  font-size: 18px;
+  color: #e2ebef;
+  line-height: 24px;
+  padding: 10px 0 30px;
+}
+
+.m-sw-detail a {
+  display: block;
+  width: 240px;
+  background: #ffba00;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.m-sw-detail a:hover {
+  background: #ffca3a;
+  box-shadow: 0 0 10px #ffd374;
+}
+
+.m-sw-line-box {
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  bottom: 70px;
+}
+
+.m-sw-line-wrap {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.m-sw-line {
+  width: 440px;
+}
+
+.m-sw-line-list {
+  width: 100%;
+  font-size: 0;
+  height: 60px;
+}
+
+.m-sw-line-list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 105px;
+  padding: 10px 0 0 20px;
+  position: relative;
+}
+
+.m-sw-line-list li:last-child {
+  width: 20px;
+}
+
+.m-sw-line-list li a {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  display: block;
+  z-index: 8;
+  width: 20px;
+  height: 22px;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/91c292ec9b7eswiper_li.png)
+    0 0 no-repeat;
+}
+
+.m-sw-line-list li.active a,
+.m-sw-line-list li.active:hover a {
+  background-position: -40px 0;
+}
+
+.m-sw-line-list li .line {
+  width: 100%;
+  height: 2px;
+  background: #90929a;
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.m-sw-line-list li .line i {
+  display: block;
+  height: 2px;
+  background: #ff9c00;
+  width: 0;
+}
+
+.m-sw-line-list li .txt {
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+  font-weight: bold;
+  width: 100%;
+  position: absolute;
+  left: -50%;
+  top: 35px;
+  padding-left: 20px;
+  text-align: center;
+  transition: color 0.3s ease 0s;
+}
+
+.m-sw-line-list li:last-child .txt {
+  width: 140px;
+  left: -70px;
+}
+
+.m-sw-line-list li:hover a {
+  background-position: -20px 0;
+}
+
+.m-sw-line-list li:hover .txt,
+.m-sw-line-list li.active .txt {
+  color: #ff9c00;
+}
+
+/*speceil deel */
+
+.m-sw-detail a.lan-ru {
+  font-size: 14px;
+  width: 280px !important;
+}
+
+/* add by 20180210 */
+
+.g-videoshow {
+  position: relative;
+  overflow: hidden;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.m-videoshow-bg {
+  height: 1000px;
+  width: 1920px;
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+  top: 0px;
+  z-index: 1;
+}
+
+.m-videoshow-bg video {
+  width: 100%;
+  vertical-align: top;
+}
+
+.m-videoshow-video {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  z-index: 9;
+  padding-top: 280px;
+  transition: all 2s ease 4s;
+}
+
+.J_videoshow_cont {
+  visibility: hidden;
+  opacity: 0;
+  /*-webkit-transform:translate3d(0,-50px,0);
+    transform:translate3d(0,-50px,0);*/
+}
+
+.J_videoshow_cont.show {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.m-videoshow-video-wrap {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  background: url(http://freefiremobile-a.akamaihd.net/ffwebsite/images/index/video_bg.jpg)
+    top center no-repeat;
+  background-size: 100% 100%;
+}
+
+.m-videoshow-main {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.g-videoshow .txt {
+  padding-top: 30px;
+  max-width: 1150px;
+  width: 90%;
+  z-index: 9;
+  margin: 0 auto;
+  position: relative;
+  line-height: 30px;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0 2px 0 #000;
+  padding-bottom: 50px;
+  transition: all 2s ease 4s;
+}
+
+[lang="ar"] .g-videoshow .txt {
+  direction: rtl;
+}
+
+.g-floor-banner {
+  height: 1000px;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/6d3b3d0141b9index_bg_20180210.jpg)
+    top center no-repeat;
+  position: relative;
+}
+
+.m-floor-banner-img {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 90%;
+  z-index: 2;
+  padding: 310px 0 0px;
+}
+
+.g-floor-banner .txt {
+  max-width: 1150px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  line-height: 30px;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0 2px 0 #000;
+  padding-bottom: 50px;
+}
+
+/* swiper2 */
+
+.swiper2_wrap {
+  width: 100%;
+  height: 0;
+  padding-top: 52%;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper2_list {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+[lang="ar"] .swiper2_list {
+  direction: rtl;
+  color: #fff;
+}
+
+[lang="ar"] .swiper2_cont p {
+  color: #fff;
+}
+.swiper2_list li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.3;
+  transition: opacity 0.5s ease-out 0s;
+}
+
+.swiper2_list li.active {
+  opacity: 1;
+  z-index: 9;
+}
+
+.swiper2_list li.show {
+  transition: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+.swiper2_show {
+  width: 100%;
+}
+
+.swiper2_show img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.swiper2_show .mobile_img {
+  display: none;
+}
+
+.swiper2_cont a {
+  display: block;
+  width: 240px;
+  background: #ffba00;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.swiper2_cont a:hover {
+  background: #ffca3a;
+  box-shadow: 0 0 10px #ffd374;
+}
+
+.swiper2_cont a.lan-ru {
+  font-size: 14px;
+  width: 280px !important;
+}
+
+.swiper2_cont {
+  left: 50%;
+  position: absolute;
+  top: 21%;
+  width: 50%;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.swiper2_cont h3 {
+  color: #ff9c00;
+  font-size: 80px;
+  padding-bottom: 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.swiper2_cont h3 span {
+  display: inline-block;
+  vertical-align: top;
+  width: 70px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.swiper2_cont p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.swiper2_icon {
+  position: absolute;
+  left: 50%;
+  bottom: 24%;
+  z-index: 9;
+  max-width: 600px;
+  width: 50%;
+  font-size: 0;
+}
+
+.swiper2_icon li {
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.swiper2_icon li a {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.swiper2_icon li a img {
+  vertical-align: top;
+  width: 100%;
+}
+
+.swiper2_icon li.active a:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 6px solid #ffba00;
+  box-sizing: border-box;
+  z-index: 8;
+}
+
+.swiper2_icon li.new a:before {
+  width: 17px;
+  height: 24px;
+  content: "";
+  position: absolute;
+  left: 4px;
+  z-index: 9;
+  top: -5px;
+  background: url(http://freefiremobile-a.akamaihd.net/common/web_event/official/icon_new.png)
+    0 0 no-repeat;
+}
+
+/* game videos 2018-7-23 */
+.g-gameVideo-wrap {
+  /*padding:20px 0 120px;*/
+  padding-top: 20px;
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0;
+}
+.m-gameVideo {
+  width: 100%;
+  font-size: 0;
+}
+.m-gameVideo li {
+  width: 33.33%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 25px 60px;
+}
+.m-gameVideo-box {
+  cursor: pointer;
+  padding-top: 56.25%;
+  position: relative;
+  height: 0;
+}
+.m-gameVideo-box .img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.m-gameVideo-box .img > img {
+  vertical-align: top;
+  width: 100%;
+}
+.m-gameVideo-box .play {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  width: 82px;
+  height: 60px;
+  z-index: 9;
+  margin: -30px auto auto -41px;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/038de00a6ecbplay.png)
+    0 0 no-repeat;
+}
+.m-gameVideo-box:hover .play {
+  background-position: 0 -60px;
+}
+.m-gameVideo-box .txt {
+  padding: 0 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  z-index: 9;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* videoGame pop */
+#popBox .gameVideo-pop-closeBtn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  text-indent: -999px;
+  position: absolute;
+  right: 10px;
+  z-index: 99;
+  top: 10px;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/5d5a6aa3cfc8pop_icon.png) -260px
+    10px no-repeat;
+}
+#popBox .gameVideo-pop-closeBtn:hover {
+  background-position: -316px 10px;
+}
+#popBox {
+  max-width: 1000px;
+  width: 90%;
+}
+.gameVideo-pop-wrap {
+  margin: 0 auto;
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background: black;
+}
+.gameVideo-pop {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.m-video-box {
+  cursor: pointer;
+  padding-top: 56.25%;
+  position: relative;
+  height: 0;
+}
+.m-video-box .img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.m-video-box .img > img {
+  vertical-align: top;
+  width: 100%;
+}
+.m-video-box .play {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  width: 82px;
+  height: 60px;
+  z-index: 9;
+  margin: -30px auto auto -41px;
+  background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/20e4fe7d0ae2play.png)
+    0 0 no-repeat;
+}
+.m-video-box:hover .play {
+  background-position: 0 -60px;
+}
+.m-video-box .txt {
+  padding: 0 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  z-index: 9;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1650px) {
+  .m-index-news-list li {
+    padding: 20px;
+  }
+  .m-index-news-list li .c-news-txt {
+    padding: 10px 20px 14px;
+    height: 180px;
+  }
+  .m-index-news-list li .c-news-txt h3 {
+    font-size: 20px;
+  }
+  .m-sw-line-box {
+    bottom: 30px;
+  }
+  .m-sw-detail h3 {
+    font-size: 50px;
+  }
+  .swiper2_cont{
+    top: 15%;
+  }
+  .swiper2_icon{
+    bottom: 15%;
+  }
+  .swiper2_cont h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .swiper2_cont h3 span {
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .c-more-box {
+    width: 50%;
+  }
+  .c-more-box-video {
+    width: 50%;
+  }
+  .m-language-index {
+    top: 65%;
+  }
+  .m-index-news-list li {
+    width: 50%;
+  }
+  .m-sw-line {
+    margin-left: 70px;
+  }
+  .m-sw-line-box {
+    bottom: 10px;
+  }
+  .m-sw-detail h3 {
+    font-size: 40px;
+  }
+  .m-sw-detail-box {
+    top: 10%;
+  }
+  .m-videoshow-video {
+    padding-top: 200px;
+  }
+  .m-sw-detail p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+  }
+  .swiper2_icon {
+    height: 130px;
+    bottom: 5%;
+  }
+  .swiper2_icon li {
+    width: 55px;
+  }
+  .swiper2_icon li.active a:after {
+    border: 3px solid #ffba00;
+  }
+  .swiper2_cont p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .m-gameVideo-box .txt {
+    font-size: 16px;
+  }
+  .m-gameVideo li {
+    width: 50%;
+  }
+  .m-slogan {
+    top: 52%;
+  }
+  .index-download-btn {
+    top: 62%;
+  }
+}
+
+/* ipad  */
+
+@media only screen and (max-width: 980px) {
+  #popBox {
+    width: 100%;
+    left: 0px !important;
+  }
+  .g-pop {
+    width: 100%;
+    height: auto;
+  }
+  .g-pop img {
+    width: 100%;
+    vertical-align: top;
+  }
+  .c-news-txt h3 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .c-news-txt {
+    padding: 15px 30px;
+  }
+  .m-slogan {
+    left: 51.6%;
+  }
+  .m-top-video {
+    display: none;
+  }
+  .m-slogan a {
+    width: 180px;
+    height: 36px;
+    line-height: 32px;
+    margin-left: -90px;
+    font-size: 18px;
+  }
+
+  .m-video {
+    display: none;
+  }
+
+  .m-mouse {
+    display: none;
+  }
+
+  /*.m-small-video {
+
+        display: block;
+
+    }*/
+  .index-download-btn {
+    width: 200px;
+  }
+
+  .index-download-btn.appleStore {
+    margin-left: -220px;
+  }
+
+  .m-language-index {
+    line-height: 30px;
+    width: 180px;
+    top: 70%;
+    font-size: 20px;
+    margin-left: -90px;
+    z-index: 98;
+  }
+  .m-language-index-change {
+    width: 180px;
+    padding: 10px 0;
+  }
+
+  .m-language-index-change a {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .m-index-news-list li .c-news-txt {
+    height: auto;
+  }
+  .m-index-news-list li .c-news-txt h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .m-sw-detail h3 {
+    font-size: 30px;
+  }
+  .m-sw-detail-box {
+    top: 10%;
+  }
+  .m-videoshow-bg {
+    display: none;
+  }
+  .swiper2_wrap {
+    padding-top: 150%;
+  }
+  .swiper2_show img.pc_img {
+    display: none;
+  }
+  .swiper2_show img.mobile_img {
+    display: block;
+  }
+  .swiper2_cont {
+    left: 0;
+    top: auto;
+    width: 100%;
+    bottom: 220px;
+    text-align: center;
+    max-width: none;
+  }
+  .swiper2_cont p {
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .swiper2_cont a {
+    margin: 0 auto;
+  }
+  .swiper2_icon {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    max-width: none;
+    text-align: center;
+  }
+  .m-gameVideo-box .txt {
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .m-slogan {
+    top: 55%;
+  }
+  .index-download-btn {
+    top: 65%;
+  }
+  .c-news-txt h3 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .c-news-txt {
+    padding: 10px 20px;
+  }
+  .c-news-list-3x li,
+  .c-more-box {
+    padding: 20px;
+  }
+  .c-more-box-video {
+    padding: 20px;
+  }
+  .m-language-index {
+    top: 77%;
+    display: block;
+  }
+
+  .m-sw-imgShow img.pc_img {
+    display: none;
+  }
+
+  .m-sw-imgShow img.mobile_img {
+    display: block;
+  }
+  .m-sw-line {
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+  }
+  .m-sw-detail-box {
+    top: auto;
+    bottom: 100px;
+    height: auto;
+  }
+  .m-sw-detail {
+    width: 100%;
+  }
+  .m-sw-detail a {
+    margin: 0 auto;
+  }
+  .m-sw-detail p {
+    line-height: 24px;
+  }
+
+  .g-floor-banner {
+    height: auto;
+    background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/index_phone_bg.jpg)
+      top center no-repeat;
+  }
+  .m-floor-banner-img {
+    padding: 100px 0 30px;
+  }
+  .g-floor-banner .txt,
+  .g-videoshow .txt {
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .g-videoshow {
+    background-position: 70% 0;
+    background-size: auto 100%;
+    height: auto;
+  }
+  .m-videoshow-video {
+    padding-top: 30px;
+  }
+}
+
+/* iphone  */
+
+@media only screen and (max-width: 640px) {
+  .g-cont {
+    padding: 30px 0;
+  }
+
+  .m-index-news-list li {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .c-news-txt {
+    height: auto;
+    padding: 20px;
+    min-height: 100px;
+  }
+
+  .g-join h3 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .top-share-facebook {
+    width: 32px;
+    height: 32px;
+    right: 20px;
+    top: 20px;
+  }
+
+  .m-small-video {
+    top: 56%;
+  }
+
+  .m-download-btn {
+    top: 60%;
+    width: 160px;
+    line-height: 36px;
+    font-size: 16px;
+    margin-left: -80px;
+  }
+
+  .m-slogan {
+    width: 60%;
+    left: 50%;
+    margin: -5% auto auto -30%;
+    padding-top: 21%;
+    top: 52%;
+  }
+  .index-download-btn.appleStore {
+    margin-left: -100px;
+    top: 62%;
+  }
+
+  .index-download-btn.googlePlay {
+    margin-left: -100px;
+    top: 73%;
+  }
+
+  .index-download-btn.apk {
+    margin-left: -100px;
+    top: 65%;
+  }
+
+  .m-video-wrap {
+    padding-top: 150%;
+    background-size: 100% auto;
+  }
+  .c-more-box {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .c-more-box-video {
+    width: 100%;
+    padding-bottom: 80px;
+  }
+  .g-floor-phone {
+    height: auto;
+    background-size: auto 100%;
+  }
+  .g-floor-phone .txt {
+    font-size: 20px;
+    padding-bottom: 50px;
+    line-height: 30px;
+  }
+  .m-gameVideo li {
+    width: 100%;
+  }
+
+  #popBox {
+    width: 100%;
+  }
+  .gameVideo-pop-wrap {
+    width: 100%;
+  }
+  #popBox .gameVideo-pop-closeBtn {
+    top: 0;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .m-language-index {
+    top: 83%;
+  }
+  .m-sw-line-list li {
+    width: 75px;
+  }
+  .m-sw-line {
+    width: 320px;
+  }
+  .m-sw-line-list li .txt {
+    font-size: 12px;
+  }
+  .m-sw-line-list li:last-child .txt {
+    width: 100px;
+    left: -50px;
+  }
+  .m-sw-detail a {
+    line-height: 50px;
+    width: 180px;
+    font-size: 16px;
+  }
+  .m-sw-detail-wrap {
+    padding: 0 20px;
+  }
+  .m-sw-detail h3 {
+    font-size: 26px;
+  }
+  .m-sw-detail-box {
+    bottom: 90px;
+  }
+  .m-sw-detail p {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0;
+    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    height: 90px;
+  }
+  .swiper2_cont a {
+    line-height: 50px;
+    width: 180px;
+    font-size: 16px;
+  }
+  .swiper2_cont h3 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .swiper2_cont h3 span {
+    width: 32px;
+  }
+  .swiper2_cont p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .swiper2_cont {
+    bottom: 140px;
+  }
+  .m-gameVideo-box .txt {
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+  }
+  .g-gameVideo-tab {
+    text-align: center;
+    padding: 0;
+  }
+  .g-gameVideo-tab li {
+    width: 160px;
+    line-height: 40px;
+    font-size: 16px;
+    height: 40px;
+    margin: 0 10px;
+  }
+  .m-gameVideo li {
+    padding: 20px;
+  }
+}
+
+/* ipone6 plus */
+
+@media only screen and (max-width: 410px) {
+  .m-slogan a {
+    width: 140px;
+    height: 26px;
+    line-height: 22px;
+    margin-left: -70px;
+    font-size: 14px;
+  }
+
+  .m-small-video {
+    line-height: 34px;
+    width: 150px;
+    font-size: 12px;
+    margin-left: -75px;
+  }
+
+  .m-small-video .icon-play {
+    margin: 9px 8px 0;
+    border-top: 8px solid transparent;
+    border-left: 15px solid #fff;
+    border-bottom: 8px solid transparent;
+  }
+
+  .m-slogan {
+    top: 50%;
+  }
+
+  .index-download-btn.appleStore {
+    margin-left: -100px;
+    top: 60%;
+  }
+
+  .index-download-btn.googlePlay {
+    margin-left: -100px;
+    top: 72%;
+  }
+
+  .index-download-btn.apk {
+    margin-left: -100px;
+    top: 74%;
+  }
+  .m-language-index {
+    top: 84%;
+  }
+  .g-floor-phone .txt {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+/* iphone 6 */
+
+@media only screen and (max-width: 375px) {
+  .m-sw-line-list li {
+    width: 70px;
+  }
+  .m-sw-line {
+    width: 300px;
+  }
+  .m-sw-line-list li .txt {
+    width: 120%;
+    left: -60%;
+  }
+  .m-sw-line-list li:last-child .txt {
+    width: 90px;
+    left: -45px;
+  }
+}
+
+:lang(ar) .c-news-list-3x,
+:lang(ar) .m-gameVideo,
+:lang(ar) .swiper2_icon,
+:lang(ar) .swiper2_list
+{
+  direction: rtl;
+}
