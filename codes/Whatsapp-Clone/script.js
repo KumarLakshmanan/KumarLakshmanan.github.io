@@ -89,7 +89,7 @@ $(function () {
     $(".call").show();
     $(".chat, .status").hide();
     $(".chaticon").html(
-      " <span>Clear call logs</span><br><span>setting</span>"
+      " <span>Clear call logs</span><br><span>Settings</span>"
     );
     $(".sbox").hide();
   });
@@ -98,7 +98,7 @@ $(function () {
     $(".status").show();
     $(".call, .chat").hide();
     $(".chaticon").html(
-      " <span>Status privacy</span><br>     <span>setting</span>"
+      " <span>Status privacy</span><br><span>Settings</span>"
     );
     $(".sbox").hide();
   });
@@ -124,12 +124,10 @@ $(function () {
   $(".arrow-left, .call-end").click(function () {
     $(this).parent().parent().hide();
     $("audio")[0].pause();
-    //  $(".chatting, .chaticon").hide();
-    // $(".main").show();
     $(".re").remove();
   });
 
-  $(".microphone").click(function () {
+  $(".send").click(function () {
     var d = new Date();
     var h = d.getHours();
     var t = d.getMinutes();
@@ -199,7 +197,7 @@ $(function () {
       }
       setTimeout(function () {
         $(".chaticon").html(
-          " <span>Status privacy</span><br>     <span>setting</span>"
+          " <span>Status privacy</span><br><span>Settings</span>"
         );
         $(".statusshow").hide();
       }, 4000);
