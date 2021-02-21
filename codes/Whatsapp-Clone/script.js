@@ -6,16 +6,6 @@ setTimeout(function () {
 }, 2000);
 
 $(function () {
-  $(".info").click(function () {
-    var pro = src;
-    pro = pro.slice(42).split("").reverse().slice(4).reverse().join("");
-    $("a").attr(
-      "href",
-      "https://www.sololearn.com/Profile/" + pro + "/?ref=app"
-    );
-    $("a")[0].click();
-  });
-
   $(".cal")
     .children(".msg")
     .children(".phone, .video")
@@ -30,7 +20,10 @@ $(function () {
     $(".T").hide(100);
   });
   $(".phone").click(function () {
-    $(".callimg").css("background", "url(" + src + ")");
+    $(".screen").css("overflow" , "hidden")
+    $(".callimg").css("background", "url(" + src + ") no-repeat");
+    $(".callimg").css("background-reapeat", "no-repeat");
+    $(".callimg").css("background-size", "cover");
     $(".callname").text(name);
     $(".calling").show();
     $("audio")[0].play();
