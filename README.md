@@ -21,22 +21,23 @@
 ### Who Am I?
 
   * My Name is Kumar Lakshmanan
+  * PHP and JavaScript lover
   * 19 Years OLD Programmer
   * Well Basement on Web Developing & Designing
 
 
-Visit My Portfolios
+Visit my Blog
 
-   * [PortFolio 1](https://kumarlakshmanan.github.io/Portfolio/1/)
-   * [PortFolio 2](https://kumarlakshmanan.github.io/Portfolio/2/)
-   * [PortFolio 3](https://kumarlakshmanan.github.io/Portfolio/3/)
+   * [CodingFrontend](https://codingfrontend.com)
 
-Visit My Codes
+Visit Some JavaScript Projects
 
    * [JS Quiz APP](https://kumarlakshmanan.github.io/codes/Quiz%20app/)
    * [Random Background Color](https://kumarlakshmanan.github.io/codes/random%20color/)
    * [Strong Password Generator](https://kumarlakshmanan.github.io/codes/random%20password/)
    * [Working Calculator](https://kumarlakshmanan.github.io/codes/simple%20calculator/)
+   * [WhatsApp Clone](https://kumarlakshmanan.github.io/codes/Whatsapp-Clone/)
+   * [Speech to Text Recognise](http://kumarLakshmanan.github.io/codes/Speech%20to%20Text)
 
 
 ## My GitHub Stats
