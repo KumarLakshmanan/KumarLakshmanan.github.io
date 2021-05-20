@@ -200,14 +200,14 @@
           <h1 style="font-size: 2rem;color:#fff;">Bash</h1>
         </div>
         <div class="skills-card">
+          <div class="mkCharts" data-percent="63" data-color="var(--cf-primary-color)" data-size="155" data-stroke="3">
+          </div>
+          <h1 style="font-size: 2rem;color:#fff;">Flutter</h1>
+        </div>
+        <div class="skills-card">
           <div class="mkCharts" data-percent="28" data-color="var(--cf-primary-color)" data-size="155" data-stroke="3">
           </div>
           <h1 style="font-size: 2rem;color:#fff;">React</h1>
-        </div>
-        <div class="skills-card">
-          <div class="mkCharts" data-percent="68" data-color="var(--cf-primary-color)" data-size="155" data-stroke="3">
-          </div>
-          <h1 style="font-size: 2rem;color:#fff;">Flutter</h1>
         </div>
       </div>
     </div>
@@ -252,25 +252,30 @@
         </div>
         <div class="widget-form cf-md-w-50">
           <div class="contact-form">
-            <div class="widget-form-group">
-              <input id="NAME" class="widget-form-control" required />
-              <label for="NAME">NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            </div>
-            <div class="widget-form-group">
-              <input id="EMAIL" class="widget-form-control" required />
-              <label for="EMAIL">EMAIL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            </div>
-            <div class="widget-form-group">
-              <input id="CONTACT" class="widget-form-control" required />
-              <label for="CONTACT">CONTACT NO</label>
-            </div>
-            <div class="widget-form-group">
-              <textarea id="MESSAGE" class="widget-form-control" required></textarea>
-              <label for="MESSAGE">MESSAGE&nbsp;&nbsp;</label>
-            </div>
-            <div class="widget-form-group buttons">
-              <button class="btn btn-outline-primary">SEND</button>
-            </div>
+            <form id="my-form" action="https://formspree.io/f/mayaevgv" method="POST">
+              <div class="widget-form-group">
+                <input id="NAME" name="NAME" class="widget-form-control" required />
+                <label for="NAME">NAME&nbsp;<span style="color: #e44e21ef;">*</span>&nbsp;</label>
+              </div>
+              <div class="widget-form-group">
+                <input id="EMAIL" name="EMAIL" class="widget-form-control" required />
+                <label for="EMAIL">EMAIL&nbsp;<span style="color: #e44e21ef;">*</span>&nbsp;</label>
+              </div>
+              <div class="widget-form-group">
+                <input id="CONTACT" name="CONTACT" class="widget-form-control" required />
+                <label for="CONTACT">CONTACT&nbsp;<span style="color: #e44e21ef;">*</span></label>
+              </div>
+              <div class="widget-form-group">
+                <textarea id="MESSAGE" name="MESSAGE" class="widget-form-control" required></textarea>
+                <label for="MESSAGE">MESSAGE&nbsp;<span style="color: #e44e21ef;">*</span></label>
+              </div>
+              <p id="form-status"
+                style="display: none;border: 1px solid e44e21ef;padding: 5px 10px;margin-bottom: 15px;background: e44e21ef;">
+              </p>
+              <div class="widget-form-group buttons">
+                <button type="submit" id="submitBtn" class="btn btn-outline-primary">SEND</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
