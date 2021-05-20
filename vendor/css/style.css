@@ -1,9 +1,9 @@
 :root {
 	--cf-theme-color: #000;
 	--cf-theme-opposite-color: #fff;
-	--cf-primary-color: #0069d9;
+	--cf-primary-color: #5c8df6;
 	--cf-secondary-color: #eee;
-	--cf-third-color: #181818;
+	--cf-third-color: #1d2026;
 	--cf-box-color: #454545;
 	--cf-animate-duration: 1s;
 	--cf-animate-delay: 1s;
@@ -27,7 +27,7 @@ body {
 	text-align: center;
 	background-position: center center;
 	background-repeat: repeat;
-	font-family: "Poppins", "Montserrat", "Roboto", sans-serif;
+	font-family: "Reggae One", "Poppins", "Montserrat", "Roboto", sans-serif;
 }
 a {
 	text-decoration: none;
@@ -93,6 +93,7 @@ canvas {
 	box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
 }
 .btn-outline-primary {
+	color: var(--cf-primary-color);
 	border: 1px solid var(--cf-primary-color);
 	background-color: transparent;
 }
@@ -102,7 +103,8 @@ canvas {
 	box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
 }
 .btn:hover {
-	color: var(--cf-theme-opposite-color);
+	color: var(--cf-theme-opposite-color) !important;
+	background: var(--cf-primary-color) !important;
 }
 .myicon {
 	width: 40px;
@@ -171,7 +173,7 @@ nav.header {
 	left: 0;
 	height: 65px;
 	width: 100%;
-	z-index: 1;
+	z-index: 100;
 	display: flex;
 	justify-content: space-between;
 	transition: all 0.3s;
@@ -299,6 +301,7 @@ label.navbar-brand {
 	box-sizing: content-box;
 	padding: 5px;
 	font-size: 20px;
+	background: #fff;
 }
 .widget {
 	text-align: left;
@@ -447,9 +450,18 @@ textarea.widget-form-group {
 	pointer-events: none;
 	z-index: 1;
 }
+.mkc_info {
+	font-size: 1.5rem;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 .skills-card .mkCharts {
 	width: 100%;
-	height: 175px;
+	position: relative;
+	height: 155px;
 	display: flex;
 	justify-content: center;
 	align-items: start;
@@ -567,6 +579,7 @@ textarea.widget-form-group {
 		right: 0;
 		width: 100%;
 		background: var(--cf-third-color);
+		z-index: 100;
 	}
 	.container_wrap .menu .line {
 		transform: translateY(-100%);
@@ -765,5 +778,3 @@ textarea.widget-form-group {
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
-
-/* aphiyatechnology2019@gmail.com */
