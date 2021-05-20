@@ -9,10 +9,22 @@
 			document.querySelector(".hero-wrap .secondText"),
 			"fadeInRightBig"
 		);
-
-		// Loader Function
+		const preloader = document.querySelector("#cf-loading");
+		var x = 0.01;
 		setTimeout(() => {
-			document.querySelector("#cf-loader.show").classList.remove("show");
+			const fadeEffect = setInterval(() => {
+				if (!preloader.style.opacity) {
+					preloader.style.opacity = 1;
+				}
+				if (preloader.style.opacity >= 0.1) {
+					x *= 2;
+					preloader.style.opacity -= x;
+				} else {
+					preloader.style.opacity = 0;
+					preloader.style.display = "none";
+					clearInterval(fadeEffect);
+				}
+			}, 50);
 		}, 500);
 
 		var navLineBar = document.querySelector(".menu .line");
@@ -104,7 +116,8 @@
 			25
 		}%`;
 
-		// Navbar Sticky
+		// Navbar Sticky (If you want the Sticky Nav on scroll Please unComment this code)
+
 		// window.addEventListener("scroll", function () {
 		// 	var header = document.querySelector(".header");
 		// 	header.classList.toggle("sticky", window.scrollY > 0);
@@ -157,21 +170,6 @@
 		}
 	});
 })();
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
 
 let menuSection = document.querySelectorAll(".menu a");
 
@@ -214,8 +212,9 @@ function createCircleChart(percent, color, size, stroke) {
             d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831" />
-        <text class="mkc_info" x="50%" y="50%" alignment-baseline="central" text-anchor="middle" font-size="8" fill="#fff">${percent}%</text>
-    </svg>`;
+    </svg>
+    <p class="mkc_info">${percent}%</p>
+    `;
 	return svg;
 }
 
