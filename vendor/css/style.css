@@ -401,7 +401,7 @@ textarea.widget-form-group {
 }
 .widget-form-control:focus + label,
 .widget-form-control:valid + label {
-	transform: translate(-10px, -150%) scale(0.8);
+	transform: translate(-20px, -150%) scale(0.8);
 }
 .contact-form {
 	width: 90%;
