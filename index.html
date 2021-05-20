@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="YWbXGLVaHNBPsfGThI1dzeSPQiw7fO4SGDHjMKiHKf8" />
   <title>Kumar Lakshmanan - Portfolio</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900" /> -->
+  <!-- New Font (Alternative for Poppins) -->
   <link href="https://file.myfontastic.com/AdVRNWdorqnGBDsnyiKZXn/icons.css" rel="stylesheet">
   <link rel="stylesheet" href="vendor/css/style.css" />
   <link rel="stylesheet" href="vendor/css/loader.css" />
@@ -14,21 +17,33 @@
 
 <body id="top">
   <!-- PreLoader Element -->
-  <div id="cf-loader" class="show">
-    <div class="flex-center">
-      <div class="cf-circle">
-        <div class="cf-1"></div>
-        <div class="cf-2"></div>
-        <div class="cf-3"></div>
-        <div class="cf-4"></div>
-        <div class="cf-5"></div>
-        <div class="cf-6"></div>
-        <div class="cf-7"></div>
-        <div class="cf-8"></div>
-        <div class="cf-9"></div>
-        <div class="cf-10"></div>
-        <div class="cf-11"></div>
-        <div class="cf-12"></div>
+  <div id="cf-loading">
+    <div class="cf-preloader">
+      <div class="cf-boxes">
+        <div class="cf-box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="cf-box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="cf-box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="cf-box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </div>
   </div>
@@ -90,7 +105,7 @@
       </div>
     </div>
   </section>
-  <div class="about-widget scrollspy-section widget w-100" id="about" style="max-width:1000px;width:95%;margin:20px auto">
+  <div class="about-widget scrollspy-section widget w-100" id="about" style="margin-top: 20px;">
     <div class="cf-d-md-block flex-between w-100">
       <div class="cf-d-md-block cf-md-w-50">
         <div class="">
@@ -102,22 +117,23 @@
           <i class="icon-ruler"></i>
           About Me
         </h5>
-        <h4>Hello Friends.</h4>
+        <h3>Hello Friends.</h3>
         <p>First of all I am going to introduce about myself. My name is Kumar Lakshmanan (<a
-            href="http://codingfrontend.com">CodingFrotnend</a> ) from. </p>
-          <ul>
-<li>I am self learning creative programmer.</li>
-<li>I am a best Problem solver, Innovative creator, Quick Learner,Forward-Thinker and Energetic
-          minded young person.</li>
-<li>I am interested in Web Designing and Developing. 
- </li>
-<li>I am from India.</li>
-<li>18 Years Old Programmer.</li>
-<li>3 Years learner in This Technology field. Still learning some intreseting things on internet.</li>
-<li>By the Degree I am a Physic Student. and now i completed my second year course on degree.</li>
-</ul>
-        <p>This is my Portfolio Version 2 :). But this site is under construction.</p><br/>
-        <a href="http://codingfrontend.com" class="btn btn-outline-primary" style="color: var(--cf-primary-color)">GO TO MY BLOG</a>
+            href="http://codingfrontend.com">CodingFrotnend</a> ) from India. </p>
+        <ul style="margin-left: 40px;list-style: disclosure-closed;">
+          <li>18 Years Old Programmer.</li>
+          <li>I am self learning creative programmer.</li>
+          <li>I am a best Problem solver, Innovative creator, Quick Learner,Forward-Thinker and Energetic
+            minded young person.</li>
+          <li>I am interested in Web Designing and Developing.
+          </li>
+          <li>3 Years learner in This Technology field. Still learning some intreseting things on internet.</li>
+          <li>By the Degree I am a Physic Student. and now i completed my second year course on degree.</li>
+        </ul>
+        <p>This site is under construction.</p><br />
+        <a href="http://codingfrontend.com" class="btn btn-outline-primary" style="color: var(--cf-primary-color)">GO TO
+          MY
+          BLOG</a>
       </div>
     </div>
   </div>
@@ -190,7 +206,7 @@
   <div class="contact-widget scrollspy-section widget w-100" id="contact">
     <div class="widget-content">
       <h5 class="widget-heading">
-        <i class="icon-ruler"></i>
+        <i class="icon-ruler" style="background: var(--cf-third-color);"></i>
         Contact Me
       </h5>
       <div class="flex-between cf-d-md-block w-100">
