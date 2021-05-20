@@ -214,7 +214,7 @@ function createCircleChart(percent, color, size, stroke) {
             d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831" />
-        <text class="mkc_info" x="50%" y="55%" alignment-baseline="central" text-anchor="middle" font-size="8" fill="#fff">${percent}%</text>
+        <text class="mkc_info" x="50%" y="50%" alignment-baseline="central" text-anchor="middle" font-size="8" fill="#fff">${percent}%</text>
     </svg>`;
 	return svg;
 }
