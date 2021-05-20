@@ -27,6 +27,11 @@
 			}, 50);
 		}, 500);
 
+		// Loader Function
+		// setTimeout(() => {
+		// document.querySelector("#cf-loader.show").classList.remove("show");
+		// }, 500);
+
 		var navLineBar = document.querySelector(".menu .line");
 		var scrollPrev = window.pageYOffset;
 
@@ -116,8 +121,7 @@
 			25
 		}%`;
 
-		// Navbar Sticky (If you want the Sticky Nav on scroll Please unComment this code)
-
+		// Navbar Sticky
 		// window.addEventListener("scroll", function () {
 		// 	var header = document.querySelector(".header");
 		// 	header.classList.toggle("sticky", window.scrollY > 0);
@@ -170,6 +174,21 @@
 		}
 	});
 })();
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 
 let menuSection = document.querySelectorAll(".menu a");
 
@@ -228,3 +247,46 @@ for (let i = 0; i < charts.length; i++) {
 	let stroke = "stroke" in chart.dataset ? chart.dataset.stroke : "1";
 	charts[i].innerHTML = createCircleChart(percent, color, size, stroke);
 }
+
+var form = document.getElementById("my-form");
+async function handleSubmit(event) {
+	var mobRegEx = /^[6-9]{1}[0-9]{9}$/;
+	event.preventDefault();
+	document.querySelector("#submitBtn").innerHTML = "SENDING ...";
+	if (document.querySelector("#NAME").value.trim().length == 0) {
+		isMessage("Please Fill out your Name", "#e44e21ef");
+	} else if (document.querySelector("#EMAIL").value.trim().length == 0) {
+		isMessage("Please Fill out your Email", "#e44e21ef");
+	} else if (!mobRegEx.test(document.querySelector("#CONTACT").value)) {
+		isMessage("Please Check your Contact Number", "#e44e21ef");
+	} else if (document.querySelector("#MESSAGE").value.trim().length == 0) {
+		isMessage("Please Fill out your Message", "#e44e21ef");
+	} else {
+		var data = new FormData(event.target);
+		fetch(event.target.action, {
+			method: form.method,
+			body: data,
+			headers: {
+				Accept: "application/json",
+			},
+		})
+			.then((response) => {
+				isMessage("Thanks for your submission!", "#17ad11f5");
+				form.reset();
+			})
+			.catch((error) => {
+				isMessage(
+					"Oops! There was a problem submitting your form",
+					"#e44e21ef"
+				);
+			});
+	}
+}
+function isMessage(Value, Color) {
+	var status = document.querySelector("#form-status");
+	status.innerHTML = Value;
+	status.style.display = "block";
+	status.style.backgroundColor = Color;
+	document.querySelector("#submitBtn").innerHTML = "SEND";
+}
+form.addEventListener("submit", handleSubmit);
