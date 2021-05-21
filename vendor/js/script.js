@@ -252,12 +252,14 @@ for (let i = 0; i < charts.length; i++) {
 var form = document.getElementById("my-form");
 async function handleSubmit(event) {
 	var mobRegEx = /^[6-9]{1}[0-9]{9}$/;
+	var emailRegEx = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
 	event.preventDefault();
 	document.querySelector("#submitBtn").innerHTML = "SENDING ...";
 	if (document.querySelector("#NAME").value.trim().length == 0) {
 		isMessage("Please Fill out your Name", "#e44e21ef");
-	} else if (document.querySelector("#EMAIL").value.trim().length == 0) {
-		isMessage("Please Fill out your Email", "#e44e21ef");
+	} else if (!emailRegEx.test(document.querySelector("#EMAIL").value)) {
+		isMessage("Please Check your Email Address", "#e44e21ef");
 	} else if (!mobRegEx.test(document.querySelector("#CONTACT").value)) {
 		isMessage("Please Check your Contact Number", "#e44e21ef");
 	} else if (document.querySelector("#MESSAGE").value.trim().length == 0) {
