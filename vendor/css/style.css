@@ -381,7 +381,7 @@ textarea.widget-form-group {
 
 .widget-form-control {
 	width: 100%;
-	padding: 10px 0;
+	padding: 10px;
 	background: none;
 	box-shadow: none !important;
 	border: 1px solid #666;
