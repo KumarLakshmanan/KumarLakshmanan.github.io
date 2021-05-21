@@ -372,21 +372,19 @@ label.navbar-brand {
 }
 
 textarea.widget-form-group {
-	height: 150px;
+	height: 225px;
 }
-
-.widget-form-group.buttons {
-	margin-bottom: 0;
-	text-align: right;
+.widget-form-group label {
+	background: var(--cf-third-color);
+	padding: 0 5px;
 }
 
 .widget-form-control {
 	width: 100%;
 	padding: 10px 0;
 	background: none;
-	border: none;
 	box-shadow: none !important;
-	border-bottom: 1px solid #666;
+	border: 1px solid #666;
 	color: #ddd;
 	font-size: 14px;
 	outline: none;
@@ -397,7 +395,7 @@ textarea.widget-form-group {
 	color: #666;
 }
 .widget-form-control:focus {
-	border-bottom-color: #ddd;
+	border-color: #ddd;
 }
 .widget-form-control:focus + label,
 .widget-form-control:valid + label {
@@ -778,3 +776,5 @@ textarea.widget-form-group {
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
+
+/* aphiyatechnology2019@gmail.com */
