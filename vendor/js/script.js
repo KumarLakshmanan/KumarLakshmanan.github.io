@@ -1,6 +1,7 @@
 (function () {
 	"use strict";
 	window.addEventListener("load", function () {
+		AOS.init();
 		addAndRemoveFadeAnimation(
 			document.querySelector(".hero-wrap .firstText"),
 			"fadeInLeftBig"
