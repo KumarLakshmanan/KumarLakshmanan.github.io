@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,
+html {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+}
+.wrapper {
+	max-width: 700px;
+	width: 90%;
+	margin: 0 auto;
+}
+.or {
+	padding: 35px 20px;
+	position: relative;
+}
+.or:after {
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #adadad;
+	border-radius: 20px;
+	display: block;
+}
+.or span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	color: #a3a3a3;
+	padding: 0 10px;
+}
+.primaryColor,
+.secondaryColor {
+	padding: 0 10px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.primaryColor {
+	color: #0d6efd;
+}
+.secondaryColor {
+	color: #172f80;
+}
+.form-control {
+	border-radius: 3px;
+	border: 1px solid #cfcfcf;
+	box-shadow: none !important;
+	height: 40px;
+}
+@media (max-width: 800px) {
+	.firstContainer {
+		display: none;
+	}
+	.secondContainer {
+		max-width: 350px;
+		margin: 0 auto;
+		width: 90%;
+	}
+}
