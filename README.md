@@ -26,18 +26,31 @@
   * Well Basement on Web Developing & Designing
 
 
-Visit my Blog
+## My All Projects for glance
 
-   * [CodingFrontend](https://codingfrontend.com)
+  - Visit my Youtube Channel
+      * [CodingFrontend](https://www.youtube.com/channel/UC8m0B9tw8MjEOG-oj-uAvFQ)
 
-Visit Some JavaScript Projects
+  - Visit my Blog
 
-   * [JS Quiz APP](https://kumarlakshmanan.github.io/codes/Quiz%20app/)
-   * [Random Background Color](https://kumarlakshmanan.github.io/codes/random%20color/)
-   * [Strong Password Generator](https://kumarlakshmanan.github.io/codes/random%20password/)
-   * [Working Calculator](https://kumarlakshmanan.github.io/codes/simple%20calculator/)
-   * [WhatsApp Clone](https://kumarlakshmanan.github.io/codes/Whatsapp-Clone/)
-   * [Speech to Text Recognise](http://kumarLakshmanan.github.io/codes/Speech%20to%20Text)
+      * [CodingFrontend](https://codingfrontend.com)
+
+  - Visit Some JavaScript Projects
+
+      * [JS Quiz APP](https://kumarlakshmanan.github.io/codes/Quiz%20app/)
+      * [Random Background Color](https://kumarlakshmanan.github.io/codes/random%20color/)
+      * [Strong Password Generator](https://kumarlakshmanan.github.io/codes/random%20password/)
+      * [Working Calculator](https://kumarlakshmanan.github.io/codes/simple%20calculator/)
+      * [WhatsApp Clone](https://kumarlakshmanan.github.io/codes/Whatsapp-Clone/)
+      * [Speech to Text Recognise](http://kumarLakshmanan.github.io/codes/Speech%20to%20Text)
+
+   - Visit my CSS Projects
+      * [Instagram Clone](https://kumarlakshmanan.github.io/codes/Instagram)
+
+   - Visit my React Projects
+      * [Tic Tac Toe Game](https://kumarlakshmanan.github.io/codes/Instagram)
+      * [Pokemon Quiz Game](https://kumarlakshmanan.github.io/codes/Instagram)
+
 
 
 ## My GitHub Stats
