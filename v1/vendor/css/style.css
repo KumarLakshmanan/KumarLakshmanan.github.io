@@ -1,9 +1,9 @@
 :root {
-	--cf-theme-color: #111A28;
+	--cf-theme-color: #000;
 	--cf-theme-opposite-color: #fff;
-	--cf-primary-color: #00CF5D;
+	--cf-primary-color: #5c8df6;
 	--cf-secondary-color: #eee;
-	--cf-third-color: #1d293a;
+	--cf-third-color: #1d2026;
 	--cf-box-color: #454545;
 	--cf-animate-duration: 1s;
 	--cf-animate-delay: 1s;
