@@ -905,6 +905,7 @@ pre tt:before {
   flex-wrap: wrap;
 }
 .skill > * {
+  width: 50%;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: calc(50% - 30px);
@@ -967,6 +968,7 @@ pre tt:before {
     margin-right: 10px;
   }
   .skill > * {
+    width: 100%;
     flex: 1 1 100%;
     margin-left: 0;
     margin-right: 0;
@@ -995,7 +997,7 @@ pre tt:before {
 .love-to-do > * {
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: calc(20% - 30px);
+  flex-basis: calc(15% - 30px);
 }
 .love-to-do .stickpad {
   background-color: #1d293a;
