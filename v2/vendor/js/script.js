@@ -96,7 +96,9 @@ var $grid = $(".skills .skill").isotope({
     columnWidth: ".web",
   },
 });
-
+$grid.isotope({
+  filter: ".web",
+});
 function calcPaths(totalDur) {
   document.body.classList.remove('animated')
   const paths = document.querySelectorAll('.autograph__path')

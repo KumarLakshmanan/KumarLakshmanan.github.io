@@ -1150,11 +1150,15 @@ pre tt:before {
   margin-top: 15px;
 }
 .portfolio-items .portfolio-tools li {
-  margin-right: 15px;
+  margin-right: 5px;
   text-decoration: none;
   font-weight: 300;
-  color: hsla(0, 0%, 100%, 0.65);
-  font-size: 16px;
+  color: #fff;
+  background-color: #00cf5d;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 @media only screen and (max-width: 991px) {
   .portfolio-items > * {
