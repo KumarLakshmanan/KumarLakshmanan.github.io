@@ -1,0 +1,13 @@
+Car,Style,Range,Transmission,VehicleType,PriceRange(Lakhs),Capacity,BootSpace,BaseModel,TopModel
+Tata Nexon EV,Compact SUV,312 Km/Full Charge,Automatic,Electric,17.4,5 Seater ,350 L,XM ,Dark XZ Plus LUX 
+Tata Tigor EV,Subcompact Sedan,306 Km/Full Charge,Automatic,Electric,13.64,5 Seater ,316 L,XE ,XZ Plus Dual Tone 
+Tata Nexon EV Max,Compact SUV,437 Km/Full Charge,Automatic,Electric,19.24,5 Seater ,350 L,XZ Plus 3.3 kW ,XZ Plus Lux 7.2 kW 
+MG ZS EV,Compact SUV,419 Km/Full Charge,Automatic,Electric,25.88,5 Seater ,448 L,Excite ,Exclusive 
+Hyundai Kona Electric,Compact SUV,452 Km/Full Charge,Automatic,Electric,23.98,5 Seater ,na,Premium Dual Tone ,HSE 
+Jaguar I-Pace,Premium Midsize Sedan,470 Km/Full Charge,Automatic,Electric,112,5 Seater ,656 L,S ,Sportback 55 
+Audi E-Tron GT,Premium Coupe,388 Km/Full Charge,Automatic,Electric,180,5 Seater ,405 L,Quattro ,na
+BYD E6,Subcompact MPV,415 Km/Full Charge,Automatic,Electric,29.15,5 Seater ,580 L,STD ,na
+Mercedes-Benz EQC,Compact SUV,471 Km/Full Charge,Automatic,Electric,100,5 Seater ,na,na,na
+BMW iX,Premium Fullsize SUV,425 Km/Full Charge,Automatic,Electric,116,5 Seater ,na,na,na
+Porsche Taycan,Premium Sports Sedan,na,Automatic,Electric,150,4 Seater ,na,na,na
+Audi E-Tron,Compact SUV,400 Km/Full Charge,Automatic,Electric,119,5 Seater ,660 L,na,na
