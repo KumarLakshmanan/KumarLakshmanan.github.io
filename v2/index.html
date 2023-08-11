@@ -1,630 +1,870 @@
 <!DOCTYPE html>
 <html lang="bn">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="generator" content="Gatsby 2.24.49" />
+    <title data-react-helmet="true">Lakshmanan | Full Stack Developer</title>
+    <link rel="stylesheet" href="./vendor/css/style.css" />
+    <link rel="stylesheet" href="./vendor/css/loader.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="generator" content="Gatsby 2.24.49" />
-  <title data-react-helmet="true">Lakshmanan | Full Stack Developer</title>
-  <link rel="stylesheet" href="./vendor/css/style.css" />
-  <link rel="stylesheet" href="./vendor/css/loader.css" />
-</head>
-
-<body>
-  <!-- PreLoader Element -->
-  <div id="cf-loading">
-    <div class="cf-preloader">
-      <div class="cf-boxes">
-        <div class="cf-box">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div class="cf-box">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div class="cf-box">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div class="cf-box">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+  <body>
+    <!-- PreLoader Element -->
+    <div id="cf-loading">
+      <div class="cf-preloader">
+        <div class="cf-boxes">
+          <div class="cf-box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="cf-box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="cf-box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="cf-box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
-    <header id="klHeader">
-      <div style="padding: 25px 25px" class="container">
-        <div class="header">
-          <div class="logo">
-            <h1>
-              <a aria-current="page" class="" href="/">
-                <img src="./vendor/img/logo.png" alt="LOGO" style="height: 100%; max-height: 50px" />
-              </a>
-            </h1>
-          </div>
-          <div class="mobile-nav">
-            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em"
-              width="1em" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
-              </path>
-            </svg>
-          </div>
-          <ul class="menubar">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skill">Skill</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li>
-              <a class="btn-download" target="_blank" rel="noopener noreferrer">Resume</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="intro-area">
-        <div style="height: 320px" class="title left social">
-          <ul>
-            <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/kumarlakshmanan"><svg
-                  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em"
-                  width="1em" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
-                  </path>
-                </svg></a>
-            </li>
-            <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://codepen.io/klakshmanan"><svg
-                  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
-                  width="1em" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M502.285 159.704l-234-156c-7.987-4.915-16.511-4.96-24.571 0l-234 156C3.714 163.703 0 170.847 0 177.989v155.999c0 7.143 3.714 14.286 9.715 18.286l234 156.022c7.987 4.915 16.511 4.96 24.571 0l234-156.022c6-3.999 9.715-11.143 9.715-18.286V177.989c-.001-7.142-3.715-14.286-9.716-18.285zM278 63.131l172.286 114.858-76.857 51.429L278 165.703V63.131zm-44 0v102.572l-95.429 63.715-76.857-51.429L234 63.131zM44 219.132l55.143 36.857L44 292.846v-73.714zm190 229.715L61.714 333.989l76.857-51.429L234 346.275v102.572zm22-140.858l-77.715-52 77.715-52 77.715 52-77.715 52zm22 140.858V346.275l95.429-63.715 76.857 51.429L278 448.847zm190-156.001l-55.143-36.857L468 219.132v73.714z">
-                  </path>
-                </svg></a>
-            </li>
-            <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/CodingFrontendweb"><svg
-                  stroke="currentColor" fill="currentColor" stroke-width="0" height="1em"
-                  width="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486.037 1000"><path d="M124.074 1000V530.771H0V361.826h124.074V217.525C124.074 104.132 197.365 0 366.243 0C434.619 0 485.18 6.555 485.18 6.555l-3.984 157.766s-51.564-.502-107.833-.502c-60.9 0-70.657 28.065-70.657 74.646v123.361h183.331l-7.977 168.945H302.706V1000H124.074" fill="currentColor"/>
-              </svg></a>
-            </li>
-            <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://codingfrontend.blogspot.com"><svg
-                  stroke="currentColor" fill="currentColor" stroke-width="0" height="1em"
-                  width="1em" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16"><path d="M14.966 6h-.897C13.52 6 13.038 5.535 13 5c0-2.854-2.301-5-5.175-5H5.203C2.331 0 .002 2.313 0 5.167v5.669c0 2.854 2.331 5.165 5.203 5.165h5.6c2.874 0 5.197-2.311 5.197-5.165V7.174c0-.57-.46-1.173-1.034-1.173zM5 4h3c.55 0 1 .45 1 1s-.45 1-1 1H5c-.55 0-1-.45-1-1s.45-1 1-1zm6 8H5c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1z" fill="currentColor"/>
-                </svg></a>
-            </li>
-            <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/codingfrontend"><svg
-                  stroke="currentColor" fill="currentColor" stroke-width="0" height="1em"
-                  width="1em" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20"><path d="M10 2.3C.172 2.3 0 3.174 0 10s.172 7.7 10 7.7s10-.874 10-7.7s-.172-7.7-10-7.7zm3.205 8.034l-4.49 2.096c-.393.182-.715-.022-.715-.456V8.026c0-.433.322-.638.715-.456l4.49 2.096c.393.184.393.484 0 .668z" fill="currentColor"/>
-                </svg></a>
-            </li>
-          </ul>
-          <p>Follow Me</p>
-        </div>
-        <div class="container">
-          <div class="intro">
-            <div class="intro-text">
-              <p style="letter-spacing: 5px">HEY! I AM</p>
-              <h1 style="margin-bottom: 10px">
-                <span>L</span><span>a</span><span>k</span><span>s</span><span>h</span><span>m</span><span>a</span><span>n</span><span>a</span><span>n</span>
+    <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+      <header id="klHeader">
+        <div style="padding: 25px 25px" class="container">
+          <div class="header">
+            <div class="logo">
+              <h1>
+                <a aria-current="page" class="" href="/">
+                  <img
+                    src="./vendor/img/logo.png"
+                    alt="LOGO"
+                    style="height: 100%; max-height: 50px"
+                  />
+                </a>
               </h1>
-              <h3 style="margin-bottom: 10px">Full Stack Developer</h3>
-              <ul>
-                <li>Developer</li>
-                <li>Designer</li>
-                <li>Freelancer</li>
-              </ul>
-              <div class="action">
-                <a style="
-                        color: rgba(255, 255, 255, 0.85);
-                        border-color: #00cf5d;
-                        background-color: #00cf5d;
-                      " target="__blank" rel="noopener noreferrer" class="btn"
-                  href="../codes/resume/resume.pdf">Get Resume</a><a
-                  style="
-                        margin-left: 15px;
-                        color: rgba(255, 255, 255, 0.85);
-                        border-color: #00cf5d;
-                        background-color: transparent;
-                      " target="" rel="" class="btn" href="#about">About Me</a>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div id="about" class="about-area">
-        <div class="container">
-          <div style="height: 160px" class="title right">
-            <p>About Me</p>
-          </div>
-          <div class="about">
-            <div class="about-details">
-              <h3>Hello Friends. Welcome to my Portfolio</h3>
-              <br />
-              <p style="line-height: 1.3">
-                First of all I am going to introduce about myself. My name
-                is Kumar Lakshmanan from India.
-              </p>
-              <br />
-              <ul style="margin-left: 40px; list-style: disclosure-closed">
-                <li>18 Years Old Programmer.</li>
-                <li>I am self learning creative programmer.</li>
-                <li>
-                  I am a best Problem solver, Innovative creator, Quick
-                  Learner,Forward-Thinker and Energetic minded young person.
-                </li>
-                <li>I am interested in Web Designing and Developing.</li>
-                <li>
-                  3 Years learner in This Technology field. Still learning
-                  some intreseting things on internet.
-                </li>
-                <li>
-                  By the Degree I am a Physic Student. and now i completed
-                  my second year course on degree.
-                </li>
-              </ul>
-              <div class="about-action">
-                <a style="
-                        color: rgba(255, 255, 255, 0.85);
-                        border-color: #00cf5d;
-                        background-color: #00cf5d;
-                      " target="_blank" rel="noopener noreferrer" class="btn"
-                  href="../codes/resume/resume.pdf">Get Resume</a><a
-                  style="
-                        margin-left: 15px;
-                        color: rgba(255, 255, 255, 0.85);
-                        border-color: #00cf5d;
-                        background-color: transparent;
-                      " target="" rel="" class="btn" href="#skill">My Skills</a>
-              </div>
+            <div class="mobile-nav">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 448 512"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                ></path>
+              </svg>
             </div>
-            <div class="about-image">
-              <div class="image">
-                <svg class="autograph" width="504" height="135" viewBox="0 0 504 135" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path class="autograph__path"
-                    d="M24.9543 128.188C28.2909 109.917 29.8844 91.9684 30.1596 73.387C30.1957 70.9517 31.527 49.7977 26.1506 51.2402C20.2825 52.8146 14.8242 57.0589 10.0174 60.5839C7.40797 62.4975 3.14266 64.7829 1.70829 67.8907C0.642686 70.1995 6.78808 67.2781 9.2091 66.5005C25.1256 61.3879 41.1819 57.3327 57.3824 53.2447C62.7141 51.8993 67.8541 50.0539 73.1276 48.5891C74.9769 48.0754 70.7221 53.7657 70.6705 53.8267C62.7542 63.1824 52.1873 70.4111 42.6718 78.0103C37.4646 82.1689 31.8225 86.5419 28.2521 92.3007C26.0503 95.8519 30.7022 95.9476 33.1018 96.0511C48.0317 96.6951 62.9755 97.3526 77.9126 97.797C85.3611 98.0185 92.677 98.4472 100.027 99.6722"
-                    stroke="white" stroke-width="3" stroke-linecap="round" />
-                  <path class="autograph__path"
-                    d="M189.649 2.48493C177.869 6.55713 169.897 12.39 163.331 23.2092C155.664 35.8436 151.17 50.3855 147.78 64.6576C145.426 74.5712 142.709 84.3053 139.73 94.0466C137.805 100.341 136.075 107.258 131.453 112.217C130.317 113.435 128.888 115.471 127.379 116.226C125.462 117.184 124.466 108.889 124.243 107.626C123.255 102.027 125.572 96.8082 129.836 93.0766C132.842 90.4463 139.713 85.0384 144.191 86.4164C147.651 87.481 150.304 95.2281 151.692 98.0556C153.752 102.251 156.42 109.326 160.228 112.346C165.728 116.708 177.049 109.744 181.501 106.656C187.804 102.284 196.444 94.7443 197.667 86.6751C199.368 75.4459 186.882 90.027 185.058 93.2706C184.757 93.8059 180.579 103.301 181.986 102.97C187.01 101.788 190.391 94.55 192.688 90.6518C193.49 89.2912 194.839 85.6269 194.886 88.8736C194.932 92.0456 195.36 97.0033 198.637 98.7022C200.191 99.5081 201.931 98.9396 203.228 97.9263C208.88 93.509 213.638 87.352 218.359 82.0194C224.443 75.1465 230.336 68.1452 234.395 59.8403C237.798 52.8782 240.052 45.2994 242.349 37.9198C243.469 34.3199 244.529 30.6966 245.388 27.0242C245.564 26.2703 245.91 24.7782 246.002 23.8558C246.034 23.5389 245.706 24.424 245.614 24.7287C241.267 39.0476 236.819 53.0926 230.645 66.7591C227.31 74.1413 223.679 81.4251 221.042 89.0999C220.109 91.818 218.542 95.7205 218.844 98.7346C219.041 100.706 220.939 95.3684 221.883 93.6262C224.588 88.632 228.08 84.3959 232.067 80.3705C239.83 72.5334 248.85 66.8247 257.867 60.6162C261.042 58.4308 259.086 60.3227 257.673 61.7801C252.239 67.388 246.088 72.3418 240.021 77.2344C235.086 81.2133 229.979 84.9114 224.89 88.6796C224.585 88.905 222.152 90.3275 223.92 90.3608C230.078 90.477 235.109 89.5582 241.12 91.9774C250.08 95.5834 258.254 101.384 268.343 101.192C279.307 100.983 283.23 88.8264 286.383 80.0795C288.591 73.9556 289.514 67.6952 289.972 61.2305C290.196 58.0735 290.791 54.2255 290.005 51.0785C289.501 49.0647 284.216 53.2855 283.991 53.4387C280.075 56.0999 275.931 59.1867 274.874 64.0756C273.392 70.9264 277.543 76.7488 281.598 81.7607C287.437 88.9751 293.587 96.3898 294.725 105.944C295.29 110.692 294.658 115.957 288.614 115.741C280.928 115.466 281.049 103.962 281.21 98.6699C282.151 67.8733 317.233 54.0281 328.543 28.0911C329.947 24.8724 330.483 21.5446 330.483 18.0685C330.483 12.9032 328.747 20.0132 328.285 21.6249C320.757 47.844 319.158 75.5347 313.121 102.097C312.973 102.749 312.563 104.621 312.281 105.524C312.129 106.011 312.496 104.527 312.636 104.037C314.117 98.8532 315.875 93.7279 318.165 88.8412C322.758 79.0381 328.947 69.1796 337.24 62.0711C339.883 59.8059 339.764 65.8297 340.053 67.2764C341.188 72.949 342.845 78.4666 344.644 83.9593C345.205 85.671 345.917 89.9529 347.36 91.3954C348.301 92.3368 361.309 72.7314 362.361 71.1561C365.364 66.6609 368.226 62.0658 370.574 57.1891C370.706 56.9132 371.857 52.741 371.673 55.5079C371.202 62.5738 370.648 69.953 371.834 76.9757C371.877 77.2267 372.378 81.6068 373.677 80.6615C376.242 78.7963 377.894 73.977 379.465 71.3825C381.856 67.4328 384.282 63.2632 387.256 59.7109C388.958 57.6783 388.964 60.261 389.326 61.6831C389.815 63.6049 390.874 70.1458 393.69 70.4772C394.983 70.6293 396.786 68.9377 397.538 68.311C401.345 65.1384 404.845 61.5203 408.078 57.7711C410.241 55.262 412.653 52.7555 414.609 50.0763C415.022 49.509 414.867 49.0743 414.867 50.3996C414.867 56.5729 415.027 62.1055 419.264 67.0178C424.342 72.905 431.387 61.4636 434.072 58.1591C443.351 46.7356 452.438 34.7804 456.962 20.5903C456.984 20.5235 458.534 13.8242 458.385 14.2534C457.138 17.8368 456.187 21.5086 455.249 25.1814C449.538 47.5355 443.646 69.7784 437.467 92.0097C434.576 102.408 432.501 113.077 429.254 123.371C428.291 126.425 426.908 130.124 424.631 132.521C423.943 133.245 422.817 132.241 422.174 131.939C413.904 128.054 405.344 126.677 396.244 125.925C376.85 124.323 357.34 124.683 337.919 123.532C333.921 123.296 324.341 124.356 326.215 120.817C326.81 119.693 329.446 118.006 330.16 117.648C335.597 114.92 345.024 111.692 350.011 110.018C378.045 100.608 406.58 92.8408 434.912 84.4119C454.449 78.5998 474.045 72.6108 492.979 65.0132C496.374 63.6509 499.496 62.4307 502.161 60.0989"
-                    stroke="white" stroke-width="3" stroke-linecap="round" />
-                  <path class="autograph__path"
-                    d="M104.101 82.7953C101.382 81.7341 98.9224 80.2626 97.5699 77.5577C96.534 75.4857 96.4076 72.4774 99.3158 73.0314C100.902 73.3334 102.886 73.421 103.971 74.7772C104.423 75.3422 103.824 76.8471 104.683 75.2299C105.159 74.3335 105.837 73.1709 106.558 72.4494C109.654 69.3536 112.248 72.175 112.248 75.8118C112.248 77.2348 111.824 79.4011 110.373 80.0149C107.069 81.4128 105.134 85.7486 101.773 86.8691"
-                    stroke="white" stroke-width="3" stroke-linecap="round" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="skill" class="skill-area">
-        <div class="container">
-          <div style="height: 160px" class="title left">
-            <p>My Skills</p>
-          </div>
-          <div class="skills">
-            <ul class="skill-nav">
-              <li data-filter="*" class="active">All</li>
-              <li data-filter=".web">Web</li>
-              <li data-filter=".programming" class="">Programming</li>
-              <li data-filter=".fullstack" class="">FullStack</li>
-              <li data-filter=".others" class="">Others</li>
+            <ul class="menubar">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skill">Skill</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  class="btn-download"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Resume</a
+                >
+              </li>
             </ul>
-            <div class="skill">
-              <div style="width: 50%;" class="all fullstack">
-                <div class="card">
-                  <h4>React</h4>
-                  <p>90%</p>
-                  <div style="width:90%" class="progress-ar"></div>
-                </div>
-              </div>
-              <div style="width: 50%;" class="all programming"">
-                <div class=" card">
-                <h4>Python</h4>
-                <p>75%</p>
-                <div style="width:75%" class="progress-ar"></div>
-              </div>
-            </div>
-            <div style="width: 50%;" class="all programming"">
-                <div class=" card">
-              <h4>Dart</h4>
-              <p>85%</p>
-              <div style="width:85%" class="progress-ar"></div>
-            </div>
-          </div>
-          <div style="width: 50%;" class="all programming"">
-                <div class=" card">
-            <h4>Bash</h4>
-            <p>60%</p>
-            <div style="width:60%" class="progress-ar"></div>
           </div>
         </div>
-        <div style="width: 50%;" class="all web">
-          <div class="card">
-            <h4>JQuery</h4>
-            <p>90%</p>
-            <div style="width:90%" class="progress-ar"></div>
+      </header>
+      <main>
+        <div class="intro-area">
+          <div style="height: 320px" class="title left social">
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/kumarlakshmanan"
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 496 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://codepen.io/klakshmanan"
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M502.285 159.704l-234-156c-7.987-4.915-16.511-4.96-24.571 0l-234 156C3.714 163.703 0 170.847 0 177.989v155.999c0 7.143 3.714 14.286 9.715 18.286l234 156.022c7.987 4.915 16.511 4.96 24.571 0l234-156.022c6-3.999 9.715-11.143 9.715-18.286V177.989c-.001-7.142-3.715-14.286-9.716-18.285zM278 63.131l172.286 114.858-76.857 51.429L278 165.703V63.131zm-44 0v102.572l-95.429 63.715-76.857-51.429L234 63.131zM44 219.132l55.143 36.857L44 292.846v-73.714zm190 229.715L61.714 333.989l76.857-51.429L234 346.275v102.572zm22-140.858l-77.715-52 77.715-52 77.715 52-77.715 52zm22 140.858V346.275l95.429-63.715 76.857 51.429L278 448.847zm190-156.001l-55.143-36.857L468 219.132v73.714z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/CodingFrontendweb"
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 486.037 1000"
+                  >
+                    <path
+                      d="M124.074 1000V530.771H0V361.826h124.074V217.525C124.074 104.132 197.365 0 366.243 0C434.619 0 485.18 6.555 485.18 6.555l-3.984 157.766s-51.564-.502-107.833-.502c-60.9 0-70.657 28.065-70.657 74.646v123.361h183.331l-7.977 168.945H302.706V1000H124.074"
+                      fill="currentColor"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://codingfrontend.blogspot.com"
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M14.966 6h-.897C13.52 6 13.038 5.535 13 5c0-2.854-2.301-5-5.175-5H5.203C2.331 0 .002 2.313 0 5.167v5.669c0 2.854 2.331 5.165 5.203 5.165h5.6c2.874 0 5.197-2.311 5.197-5.165V7.174c0-.57-.46-1.173-1.034-1.173zM5 4h3c.55 0 1 .45 1 1s-.45 1-1 1H5c-.55 0-1-.45-1-1s.45-1 1-1zm6 8H5c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1z"
+                      fill="currentColor"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://youtube.com/codingfrontend"
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M10 2.3C.172 2.3 0 3.174 0 10s.172 7.7 10 7.7s10-.874 10-7.7s-.172-7.7-10-7.7zm3.205 8.034l-4.49 2.096c-.393.182-.715-.022-.715-.456V8.026c0-.433.322-.638.715-.456l4.49 2.096c.393.184.393.484 0 .668z"
+                      fill="currentColor"
+                    /></svg
+                ></a>
+              </li>
+            </ul>
+            <p>Follow Me</p>
           </div>
-        </div>
-        <div style="width: 50%;" class="all web">
-          <div class="card">
-            <h4>Tailwind</h4>
-            <p>65%</p>
-            <div style="width:65%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all web">
-          <div class="card">
-            <h4>Bootstrap</h4>
-            <p>90%</p>
-            <div style="width:90%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all fullstack">
-          <div class="card">
-            <h4>Next.JS</h4>
-            <p>40%</p>
-            <div style="width:40%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all fullstack">
-          <div class="card">
-            <h4>Node JS</h4>
-            <p>80%</p>
-            <div style="width:80%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all fullstack">
-          <div class="card">
-            <h4>Express JS</h4>
-            <p>70%</p>
-            <div style="width:70%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all web fullstack">
-          <div class="card">
-            <h4>MongoDB</h4>
-            <p>60%</p>
-            <div style="width:60%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all web">
-          <div class="card">
-            <h4>MySQL</h4>
-            <p>95%</p>
-            <div style="width:95%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all web">
-          <div class="card">
-            <h4>PHP</h4>
-            <p>90%</p>
-            <div style="width:90%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;;" class="all others">
-          <div class="card">
-            <h4>Flutter</h4>
-            <p>95%</p>
-            <div style="width:95%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all others">
-          <div class="card">
-            <h4>Photoshop</h4>
-            <p>60%</p>
-            <div style="width:60%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all others">
-          <div class="card">
-            <h4>Figma</h4>
-            <p>40%</p>
-            <div style="width:40%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all others">
-          <div class="card">
-            <h4>Git</h4>
-            <p>70%</p>
-            <div style="width:70%" class="progress-ar"></div>
-          </div>
-        </div>
-        <div style="width: 50%;" class="all others">
-          <div class="card">
-            <h4>Visual Code</h4>
-            <p>90%</p>
-            <div style="width:90%" class="progress-ar"></div>
-          </div>
-        </div>
-      </div>
-  </div>
-  </div>
-  <div class="love-to-do-area">
-    <div class="container">
-      <div style="height: 160px" class="title right">
-        <p>Love To Do</p>
-      </div>
-      <div class="love-to-do">
-        <div class="stickpad">
-          <img src="./vendor/img/reading-book.png" alt="">
-          <h4>Reading</h4>
-        </div>
-        <div class="stickpad">
-          <img src="./vendor/img/cooking.png" alt="">
-          <h4>Cooking</h4>
-        </div>
-        <div class="stickpad">
-          <img src="./vendor/img/around.png" alt="">
-          <h4>Travelling</h4>
-        </div>
-        <div class="stickpad">
-          <img src="./vendor/img/software.png" alt="">
-          <h4>Coding</h4>
-        </div>
-        <div class="stickpad">
-          <img src="./vendor/img/photography.png" alt="">
-          <h4>Photography</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="portfolio" class="portfolio-area">
-    <div class="container">
-      <div class="title left" style="height: 160px">
-        <p>Portfolio</p>
-      </div>
-      <div class="portfolios">
-        <div class="portfolio-items portfolios-featured">
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/1.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Online Job Profile</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>flutter</li>
-                <li>dart</li>
-                <li>php</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/2.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Portfolio v1</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>css</li>
-                <li>particle.js</li>
-                <li>aos</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/3.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Invest Properties</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>php</li>
-                <li>sql</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/4.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Properties in Business Bay</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>php</li>
-                <li>sql</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/5.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Best Deals Online Shopping</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>php</li>
-                <li>api</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/6.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Group Chat</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>react</li>
-                <li>firebase</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/7.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Tic Tac Toe</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>react</li>
-                <li>game</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/8.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Guess Pokemon</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>react</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/9.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Movie App</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>react</li>
-                <li>nextjs</li>
-                <li>omdb</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/10.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Tab2Chat</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>php</li>
-                <li>chat</li>
-                <li>flutter</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/11.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Data Scrappers</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>javascript</li>
-                <li>chrome</li>
-                <li>python</li>
-              </ul>
-            </div>
-          </div>
-          <div class="portfolio">
-            <div class="portfolio-img">
-              <img alt="Gradienta" src="./vendor/img/12.png" />
-            </div>
-            <div class="details">
-              <h4>
-                <a target="_blank" rel="noopener noreferrer" href="https://gradienta.io">Data Scrappers</a>
-              </h4>
-              <p>
-                A Collection of Bengali Cheatsheets for the developers,
-                completely open-source
-              </p>
-              <ul class="portfolio-tools">
-                <li>javascript</li>
-                <li>chrome</li>
-                <li>python</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-action">
-          <a style="
-                      margin-top: 15px;
+          <div class="container">
+            <div class="intro">
+              <div class="intro-text">
+                <p style="letter-spacing: 5px">HEY! I AM</p>
+                <h1 style="margin-bottom: 10px">
+                  <span>L</span><span>a</span><span>k</span><span>s</span
+                  ><span>h</span><span>m</span><span>a</span><span>n</span
+                  ><span>a</span><span>n</span>
+                </h1>
+                <h3 style="margin-bottom: 10px">Full Stack Developer</h3>
+                <ul>
+                  <li>Developer</li>
+                  <li>Designer</li>
+                  <li>Freelancer</li>
+                </ul>
+                <div class="action">
+                  <a
+                    style="
+                      color: rgba(255, 255, 255, 0.85);
+                      border-color: #00cf5d;
+                      background-color: #00cf5d;
+                    "
+                    target="__blank"
+                    rel="noopener noreferrer"
+                    class="btn"
+                    href="../codes/resume/resume.pdf"
+                    >Get Resume</a
+                  ><a
+                    style="
+                      margin-left: 15px;
                       color: rgba(255, 255, 255, 0.85);
                       border-color: #00cf5d;
                       background-color: transparent;
-                    " target="__blank" rel="noopener noreferrer" class="btn"
-            href="https://github.com/kumrlakshmanan">More</a>
+                    "
+                    target=""
+                    rel=""
+                    class="btn"
+                    href="#about"
+                    >About Me</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+        <div id="about" class="about-area">
+          <div class="container">
+            <div style="height: 160px" class="title right">
+              <p>About Me</p>
+            </div>
+            <div class="about">
+              <div class="about-details">
+                <h3>Hello Friends. Welcome to my Portfolio</h3>
+                <br />
+                <p style="line-height: 1.3">
+                  First of all I am going to introduce about myself. My name is
+                  Kumar Lakshmanan from India.
+                </p>
+                <br />
+                <ul style="margin-left: 40px; list-style: disclosure-closed">
+                  <li>18 Years Old Programmer.</li>
+                  <li>I am self learning creative programmer.</li>
+                  <li>
+                    I am a best Problem solver, Innovative creator, Quick
+                    Learner,Forward-Thinker and Energetic minded young person.
+                  </li>
+                  <li>I am interested in Web Designing and Developing.</li>
+                  <li>
+                    3 Years learner in This Technology field. Still learning
+                    some intreseting things on internet.
+                  </li>
+                  <li>
+                    By the Degree I am a Physic Student. and now i completed my
+                    second year course on degree.
+                  </li>
+                </ul>
+                <div class="about-action">
+                  <a
+                    style="
+                      color: rgba(255, 255, 255, 0.85);
+                      border-color: #00cf5d;
+                      background-color: #00cf5d;
+                    "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn"
+                    href="../codes/resume/resume.pdf"
+                    >Get Resume</a
+                  ><a
+                    style="
+                      margin-left: 15px;
+                      color: rgba(255, 255, 255, 0.85);
+                      border-color: #00cf5d;
+                      background-color: transparent;
+                    "
+                    target=""
+                    rel=""
+                    class="btn"
+                    href="#skill"
+                    >My Skills</a
+                  >
+                </div>
+              </div>
+              <div class="about-image">
+                <div class="image">
+                  <svg
+                    class="autograph"
+                    width="504"
+                    height="135"
+                    viewBox="0 0 504 135"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      class="autograph__path"
+                      d="M24.9543 128.188C28.2909 109.917 29.8844 91.9684 30.1596 73.387C30.1957 70.9517 31.527 49.7977 26.1506 51.2402C20.2825 52.8146 14.8242 57.0589 10.0174 60.5839C7.40797 62.4975 3.14266 64.7829 1.70829 67.8907C0.642686 70.1995 6.78808 67.2781 9.2091 66.5005C25.1256 61.3879 41.1819 57.3327 57.3824 53.2447C62.7141 51.8993 67.8541 50.0539 73.1276 48.5891C74.9769 48.0754 70.7221 53.7657 70.6705 53.8267C62.7542 63.1824 52.1873 70.4111 42.6718 78.0103C37.4646 82.1689 31.8225 86.5419 28.2521 92.3007C26.0503 95.8519 30.7022 95.9476 33.1018 96.0511C48.0317 96.6951 62.9755 97.3526 77.9126 97.797C85.3611 98.0185 92.677 98.4472 100.027 99.6722"
+                      stroke="white"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      class="autograph__path"
+                      d="M189.649 2.48493C177.869 6.55713 169.897 12.39 163.331 23.2092C155.664 35.8436 151.17 50.3855 147.78 64.6576C145.426 74.5712 142.709 84.3053 139.73 94.0466C137.805 100.341 136.075 107.258 131.453 112.217C130.317 113.435 128.888 115.471 127.379 116.226C125.462 117.184 124.466 108.889 124.243 107.626C123.255 102.027 125.572 96.8082 129.836 93.0766C132.842 90.4463 139.713 85.0384 144.191 86.4164C147.651 87.481 150.304 95.2281 151.692 98.0556C153.752 102.251 156.42 109.326 160.228 112.346C165.728 116.708 177.049 109.744 181.501 106.656C187.804 102.284 196.444 94.7443 197.667 86.6751C199.368 75.4459 186.882 90.027 185.058 93.2706C184.757 93.8059 180.579 103.301 181.986 102.97C187.01 101.788 190.391 94.55 192.688 90.6518C193.49 89.2912 194.839 85.6269 194.886 88.8736C194.932 92.0456 195.36 97.0033 198.637 98.7022C200.191 99.5081 201.931 98.9396 203.228 97.9263C208.88 93.509 213.638 87.352 218.359 82.0194C224.443 75.1465 230.336 68.1452 234.395 59.8403C237.798 52.8782 240.052 45.2994 242.349 37.9198C243.469 34.3199 244.529 30.6966 245.388 27.0242C245.564 26.2703 245.91 24.7782 246.002 23.8558C246.034 23.5389 245.706 24.424 245.614 24.7287C241.267 39.0476 236.819 53.0926 230.645 66.7591C227.31 74.1413 223.679 81.4251 221.042 89.0999C220.109 91.818 218.542 95.7205 218.844 98.7346C219.041 100.706 220.939 95.3684 221.883 93.6262C224.588 88.632 228.08 84.3959 232.067 80.3705C239.83 72.5334 248.85 66.8247 257.867 60.6162C261.042 58.4308 259.086 60.3227 257.673 61.7801C252.239 67.388 246.088 72.3418 240.021 77.2344C235.086 81.2133 229.979 84.9114 224.89 88.6796C224.585 88.905 222.152 90.3275 223.92 90.3608C230.078 90.477 235.109 89.5582 241.12 91.9774C250.08 95.5834 258.254 101.384 268.343 101.192C279.307 100.983 283.23 88.8264 286.383 80.0795C288.591 73.9556 289.514 67.6952 289.972 61.2305C290.196 58.0735 290.791 54.2255 290.005 51.0785C289.501 49.0647 284.216 53.2855 283.991 53.4387C280.075 56.0999 275.931 59.1867 274.874 64.0756C273.392 70.9264 277.543 76.7488 281.598 81.7607C287.437 88.9751 293.587 96.3898 294.725 105.944C295.29 110.692 294.658 115.957 288.614 115.741C280.928 115.466 281.049 103.962 281.21 98.6699C282.151 67.8733 317.233 54.0281 328.543 28.0911C329.947 24.8724 330.483 21.5446 330.483 18.0685C330.483 12.9032 328.747 20.0132 328.285 21.6249C320.757 47.844 319.158 75.5347 313.121 102.097C312.973 102.749 312.563 104.621 312.281 105.524C312.129 106.011 312.496 104.527 312.636 104.037C314.117 98.8532 315.875 93.7279 318.165 88.8412C322.758 79.0381 328.947 69.1796 337.24 62.0711C339.883 59.8059 339.764 65.8297 340.053 67.2764C341.188 72.949 342.845 78.4666 344.644 83.9593C345.205 85.671 345.917 89.9529 347.36 91.3954C348.301 92.3368 361.309 72.7314 362.361 71.1561C365.364 66.6609 368.226 62.0658 370.574 57.1891C370.706 56.9132 371.857 52.741 371.673 55.5079C371.202 62.5738 370.648 69.953 371.834 76.9757C371.877 77.2267 372.378 81.6068 373.677 80.6615C376.242 78.7963 377.894 73.977 379.465 71.3825C381.856 67.4328 384.282 63.2632 387.256 59.7109C388.958 57.6783 388.964 60.261 389.326 61.6831C389.815 63.6049 390.874 70.1458 393.69 70.4772C394.983 70.6293 396.786 68.9377 397.538 68.311C401.345 65.1384 404.845 61.5203 408.078 57.7711C410.241 55.262 412.653 52.7555 414.609 50.0763C415.022 49.509 414.867 49.0743 414.867 50.3996C414.867 56.5729 415.027 62.1055 419.264 67.0178C424.342 72.905 431.387 61.4636 434.072 58.1591C443.351 46.7356 452.438 34.7804 456.962 20.5903C456.984 20.5235 458.534 13.8242 458.385 14.2534C457.138 17.8368 456.187 21.5086 455.249 25.1814C449.538 47.5355 443.646 69.7784 437.467 92.0097C434.576 102.408 432.501 113.077 429.254 123.371C428.291 126.425 426.908 130.124 424.631 132.521C423.943 133.245 422.817 132.241 422.174 131.939C413.904 128.054 405.344 126.677 396.244 125.925C376.85 124.323 357.34 124.683 337.919 123.532C333.921 123.296 324.341 124.356 326.215 120.817C326.81 119.693 329.446 118.006 330.16 117.648C335.597 114.92 345.024 111.692 350.011 110.018C378.045 100.608 406.58 92.8408 434.912 84.4119C454.449 78.5998 474.045 72.6108 492.979 65.0132C496.374 63.6509 499.496 62.4307 502.161 60.0989"
+                      stroke="white"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      class="autograph__path"
+                      d="M104.101 82.7953C101.382 81.7341 98.9224 80.2626 97.5699 77.5577C96.534 75.4857 96.4076 72.4774 99.3158 73.0314C100.902 73.3334 102.886 73.421 103.971 74.7772C104.423 75.3422 103.824 76.8471 104.683 75.2299C105.159 74.3335 105.837 73.1709 106.558 72.4494C109.654 69.3536 112.248 72.175 112.248 75.8118C112.248 77.2348 111.824 79.4011 110.373 80.0149C107.069 81.4128 105.134 85.7486 101.773 86.8691"
+                      stroke="white"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="skill" class="skill-area">
+          <div class="container">
+            <div style="height: 160px" class="title left">
+              <p>My Skills</p>
+            </div>
+            <div class="skills">
+              <ul class="skill-nav">
+                <li data-filter="*" class="active">All</li>
+                <li data-filter=".web">Web</li>
+                <li data-filter=".languages" class="">Languages</li>
+                <li data-filter=".fullstack" class="">FullStack</li>
+                <li data-filter=".tools" class="">Tools</li>
+                <li data-filter=".others" class="">Others</li>
+              </ul>
+              <div class="skill">
+                <div style="width: 50%" class="all fullstack">
+                  <div class="card">
+                    <h4>React</h4>
+                    <p>90%</p>
+                    <div style="width: 90%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%;" class="all languages"">
+                <div class="card">
+                  <h4>Python</h4>
+                  <p>75%</p>
+                  <div style="width: 75%" class="progress-ar"></div>
+                </div>
+                <div style="width: 50%;" class="all languages"">
+                <div class="card">
+                  <h4>Dart</h4>
+                  <p>85%</p>
+                  <div style="width: 85%" class="progress-ar"></div>
+                </div>
+                <div style="width: 50%;" class="all languages"">
+                <div class="card">
+                  <h4>Bash</h4>
+                  <p>60%</p>
+                  <div style="width: 60%" class="progress-ar"></div>
+                </div>
+                <div style="width: 50%" class="all web">
+                  <div class="card">
+                    <h4>JQuery</h4>
+                    <p>90%</p>
+                    <div style="width: 90%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web">
+                  <div class="card">
+                    <h4>Tailwind</h4>
+                    <p>65%</p>
+                    <div style="width: 65%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web">
+                  <div class="card">
+                    <h4>Bootstrap</h4>
+                    <p>90%</p>
+                    <div style="width: 90%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web fullstack">
+                  <div class="card">
+                    <h4>Next.JS</h4>
+                    <p>40%</p>
+                    <div style="width: 40%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web fullstack">
+                  <div class="card">
+                    <h4>Node JS</h4>
+                    <p>80%</p>
+                    <div style="width: 80%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web fullstack">
+                  <div class="card">
+                    <h4>Express JS</h4>
+                    <p>70%</p>
+                    <div style="width: 70%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web fullstack">
+                  <div class="card">
+                    <h4>MongoDB</h4>
+                    <p>60%</p>
+                    <div style="width: 60%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web">
+                  <div class="card">
+                    <h4>MySQL</h4>
+                    <p>95%</p>
+                    <div style="width: 95%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web fullstack">
+                  <div class="card">
+                    <h4>Firebase</h4>
+                    <p>68%</p>
+                    <div style="width: 70%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web">
+                  <div class="card">
+                    <h4>AWS</h4>
+                    <p>90%</p>
+                    <div style="width: 60%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all web">
+                  <div class="card">
+                    <h4>PHP</h4>
+                    <p>90%</p>
+                    <div style="width: 90%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all app">
+                  <div class="card">
+                    <h4>Flutter</h4>
+                    <p>95%</p>
+                    <div style="width: 95%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all app">
+                  <div class="card">
+                    <h4>Java + XML</h4>
+                    <p>35%</p>
+                    <div style="width: 35%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all tools">
+                  <div class="card">
+                    <h4>Photoshop</h4>
+                    <p>60%</p>
+                    <div style="width: 60%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all tools">
+                  <div class="card">
+                    <h4>Figma</h4>
+                    <p>40%</p>
+                    <div style="width: 40%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all tools">
+                  <div class="card">
+                    <h4>Git</h4>
+                    <p>70%</p>
+                    <div style="width: 70%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all tools">
+                  <div class="card">
+                    <h4>Visual Code</h4>
+                    <p>90%</p>
+                    <div style="width: 90%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all others">
+                  <div class="card">
+                    <h4>Whatsapp API</h4>
+                    <p>90%</p>
+                    <div style="width: 60%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all others">
+                  <div class="card">
+                    <h4>Google Cloud API</h4>
+                    <p>90%</p>
+                    <div style="width: 70%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all others">
+                  <div class="card">
+                    <h4>Facebook Audience Network</h4>
+                    <p>90%</p>
+                    <div style="width: 70%" class="progress-ar"></div>
+                  </div>
+                </div>
+                <div style="width: 50%" class="all others">
+                  <div class="card">
+                    <h4>Google Console & etc</h4>
+                    <p>70%</p>
+                    <div style="width: 70%" class="progress-ar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="love-to-do-area">
+              <div class="container">
+                <div style="height: 160px" class="title right">
+                  <p>Love To Do</p>
+                </div>
+                <div class="love-to-do">
+                  <div class="stickpad">
+                    <img src="./vendor/img/around.png" alt="" />
+                    <h4>Travelling</h4>
+                  </div>
+                  <div class="stickpad">
+                    <img src="./vendor/img/software.png" alt="" />
+                    <h4>Coding</h4>
+                  </div>
+                  <div class="stickpad">
+                    <img src="./vendor/img/photography.png" alt="" />
+                    <h4>Photography</h4>
+                  </div>
+                  <div class="stickpad">
+                    <img src="./vendor/img/reading-book.png" alt="" />
+                    <h4>Reading</h4>
+                  </div>
+                  <div class="stickpad">
+                    <img src="./vendor/img/watch-anime.png" alt="" />
+                    <h4>Anime</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="portfolio" class="portfolio-area">
+              <div class="container">
+                <div class="title left" style="height: 160px">
+                  <p>Portfolio</p>
+                </div>
+                <div class="portfolios">
+                  <div class="portfolio-items portfolios-featured">
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/1.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Online Job Profile</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>flutter</li>
+                          <li>dart</li>
+                          <li>php</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/2.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Portfolio v1</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>css</li>
+                          <li>particle.js</li>
+                          <li>aos</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/3.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Invest Properties</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>php</li>
+                          <li>sql</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/4.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Properties in Business Bay</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>php</li>
+                          <li>sql</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/5.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Best Deals Online Shopping</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>php</li>
+                          <li>api</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/6.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Group Chat</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>react</li>
+                          <li>firebase</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/7.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Tic Tac Toe</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>react</li>
+                          <li>game</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/8.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Guess Pokemon</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>react</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/9.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Movie App</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>react</li>
+                          <li>nextjs</li>
+                          <li>omdb</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/10.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Tab2Chat</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>php</li>
+                          <li>chat</li>
+                          <li>flutter</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/11.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Data Scrappers</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>javascript</li>
+                          <li>chrome</li>
+                          <li>python</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="portfolio">
+                      <div class="portfolio-img">
+                        <img alt="Gradienta" src="./vendor/img/12.png" />
+                      </div>
+                      <div class="details">
+                        <h4>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://gradienta.io"
+                            >Data Scrappers</a
+                          >
+                        </h4>
+                        <p>
+                          A Collection of Bengali Cheatsheets for the
+                          developers, completely open-source
+                        </p>
+                        <ul class="portfolio-tools">
+                          <li>javascript</li>
+                          <li>chrome</li>
+                          <li>python</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-action">
+                    <a
+                      style="
+                        margin-top: 15px;
+                        color: rgba(255, 255, 255, 0.85);
+                        border-color: #00cf5d;
+                        background-color: transparent;
+                      "
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      class="btn"
+                      href="https://github.com/kumrlakshmanan"
+                      >More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
       <footer class="footer-area">
         <div style="padding: 50px 25px" class="container">
@@ -644,6 +884,10 @@
                   <div style="width: 30%" class="progress"></div>
                 </li>
                 <li>
+                  <p>ありがとう</p>
+                  <div style="width: 30%" class="progress"></div>
+                </li>
+                <li>
                   <p>ధన్యవాదాలు</p>
                   <div style="width: 00%" class="progress"></div>
                 </li>
@@ -654,9 +898,7 @@
               </ul>
             </div>
             <div class="copyright">
-              <p>
-                Created with &nbsp;&#10084;&nbsp; by Lakshmanan
-              </p>
+              <p>Created with &nbsp;&#10084;&nbsp; by Lakshmanan</p>
             </div>
           </div>
         </div>
@@ -665,6 +907,5 @@
     <script src="./vendor/js/jquery.min.js"></script>
     <script src="./vendor/js/isotope.pkgd.min.js"></script>
     <script src="./vendor/js/script.js"></script>
-</body>
-
+  </body>
 </html>
